@@ -163,6 +163,9 @@
 - [Bloop AI](https://bloop.ai/)
   - AI-powered code search and navigation for understanding large and complex codebases.
   - **Tags:** ☁️ hosted · 💻 coding · 🔎 search
+- [Google Antigravity](https://antigravity.dev)
+  - Google’s agent-first IDE (fork of VS Code) with built-in browser agent and manager.
+  - **Tags:** ☁️ hosted · 💻 coding · 🤖 agents
 
 ### 🛠️ App builders and product tools
 
@@ -199,9 +202,9 @@
 - [Agentforce](https://www.salesforce.com/agentforce/)
   - Salesforce’s low-code platform for building autonomous business agents.
   - **Tags:** ☁️ hosted · 🤖 agents · 🛠️ workflow
-- [HumanLayer](https://www.humanlayer.dev/)
+- [HumanLayer](https://github.com/humanlayer/humanlayer)
   - Approval and collaboration layer for teams using coding agents in real production workflows.
-  - **Tags:** ☁️ hosted · 🤖 agents · 💻 coding · 👥 team
+  - **Tags:** 🔓 open-source · ☁️ hosted · 🤖 agents · 👥 team
 - [Kore.ai](https://kore.ai/)
   - Enterprise conversational AI platform for scaling thousands of agents.
   - **Tags:** ☁️ hosted · 🤖 agents · 🛠️ workflow
@@ -212,7 +215,7 @@
   - AI productivity hub for automating meeting prep, note-taking, and cross-platform follow-ups.
   - **Tags:** ☁️ hosted · 🛠️ workflow · 🤖 agents
 - [Jamie](https://meetjamie.ai/)
-  - Bot-free meeting assistant that records locally and generates professional, high-privacy summaries.
+  - Bot-free meeting assistant that records locally and generates professional summaries.
   - **Tags:** ☁️ hosted · 🏠 self-hosted · 🛠️ workflow
 - [Granola](https://granola.so/)
   - Meeting notepad that combines AI transcription with manual notes for structured documentation.
@@ -276,8 +279,8 @@
 - [Antigravity](https://google.com/antigravity)
   - Google’s platform for building agentic apps that interact natively with OS and Workspace.
   - **Tags:** ☁️ hosted · 🧩 framework · 🤖 agents
-- [OpenHarness](https://github.com/knightli/openharness)
-  - Open-source infrastructure layer for building agent tool-calling loops and skill governance.
+- [OpenHarness](https://github.com/zhijiewong/openharness)
+  - Open-source framework for building agent tool-calling loops and skill governance.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
 - [Griptape](https://www.griptape.ai/)
   - Python framework for building modular and security-first AI agents and pipelines.
@@ -288,7 +291,7 @@
 - [PydanticAI](https://ai.pydantic.dev/)
   - Python agent framework focused on validation, structure, and typed outputs.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
-- [BMAD](https://github.com/bobalazek/bmad)
+- [BMAD](https://github.com/bmad-code-org/BMAD-METHOD)
   - Breakthrough Method for Agile AI-Driven Development—an open framework for multi-agent software engineering.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents · 📐 prompts
 
@@ -300,7 +303,7 @@
 - [Vibe Kanban](https://vibekanban.com/)
   - Visual orchestration layer for managing parallel AI agents using Kanban boards and Git worktrees.
   - **Tags:** 🔓 open-source · 🤖 agents · 🛠️ workflow
-- [Schaltwerk](https://github.com/fredrik-sh/schaltwerk)
+- [Schaltwerk](https://github.com/2mawi2/schaltwerk)
   - Desktop application for running and reviewing parallel terminal agents in a spec-driven flow.
   - **Tags:** 🔓 open-source · 🏠 self-hosted · 🤖 agents · 🛠️ workflow
 - [Zapier Central](https://zapier.com/central)
@@ -336,9 +339,6 @@
 - [OpenSpec](https://openspec.dev/)
   - Spec-driven development tooling for AI coding and agent workflows.
   - **Tags:** 🔓 open-source · 💻 coding · 📐 specs
-- [HumanLayer](https://www.humanlayer.dev/)
-  - Approval and collaboration layer for teams using coding agents in real workflows.
-  - **Tags:** ☁️ hosted · 🤖 agents · 💻 coding · 👥 team
 - [Claude Super Prompt System](https://claude.ai/super-prompt)
   - Advanced prompt engineering framework for maximizing reasoning capabilities.
   - **Tags:** 📐 prompts · 📝 text · 🤖 agents
@@ -360,9 +360,9 @@
 - [Braintrust](https://braintrustdata.com/)
   - Enterprise stack for building AI products with a focus on automated evaluations.
   - **Tags:** ☁️ hosted · 🧪 observability · 🧪 research
-- [Tracer](https://tracer.run/)
+- [Tracer](https://github.com/Abil-Shrestha/tracer)
   - CLI-first issue tracker and context layer specifically designed for AI agents.
-  - **Tags:** ☁️ hosted · 🤖 agents · 🧪 observability · 💻 coding
+  - **Tags:** 🔓 open-source · 🤖 agents · 🧪 observability · 💻 coding
 
 ### 🛤️ Agentic methodologies and conventions
 
@@ -372,7 +372,7 @@
 - [Vibe Coding](https://vibecoding.com/)
   - A paradigm shift toward orchestrating, planning, and reviewing agents rather than manual typing.
   - **Tags:** 📝 methodology · 🤖 agents · 💻 coding
-- [PRD Breakdown & Execute](https://github.com/bobalazek/prd-breakdown)
+- [PRD Breakdown & Execute](https://github.com/nurettincoban/ai-prd-workflow)
   - A structured workflow for breaking high-level requirements into atomic agent tasks.
   - **Tags:** 📝 methodology · 🤖 agents · 🛠️ workflow
 
@@ -529,7 +529,7 @@
 - [Honcho](https://honcho.dev/)
   - Memory server for stateful agents using dialectic reasoning to build user models.
   - **Tags:** ☁️ hosted · 🧠 memory · 🤖 agents
-- [MemoryOS](https://github.com/mOS-MemoryOS/MemoryOS)
+- [MemoryOS](https://github.com/BAI-LAB/MemoryOS)
   - Hierarchical memory management system providing short, mid, and long-term storage for agents.
   - **Tags:** 🔓 open-source · 🧠 memory · 🤖 agents
 - [cognee](https://cognee.ai/)
@@ -538,9 +538,12 @@
 - [MemPalace](https://github.com/mempalace/mempalace)
   - Open-source persistent memory system for building long-context agents.
   - **Tags:** 🔓 open-source · 🧠 memory · 🤖 agents
-- [Basic Memory](https://github.com/mcp-get/basic-memory)
+- [Basic Memory](https://github.com/basicmachines-co/basic-memory)
   - Open-source, local-first memory system for AI assistants using MCP.
   - **Tags:** 🔓 open-source · 💻 local · 🧠 memory
+- [QMD (Query Markup Documents)](https://github.com/tobi/qmd)
+  - Local CLI search engine and MCP server for personal knowledge bases and notes.
+  - **Tags:** 🔓 open-source · 💻 local · 🧠 memory · 🔎 search
 - [Memgraph](https://memgraph.com/)
   - In-memory graph database used for GraphRAG and multi-hop reasoning.
   - **Tags:** 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🕸️ graph
@@ -601,9 +604,6 @@
 - [Jina Reader](https://r.jina.ai/)
   - Simple API to convert any web URL into clean markdown for LLMs.
   - **Tags:** ☁️ hosted · 🔌 api · 📄 parsing · 🔎 search
-- [QMD](https://github.com/tobi/qmd)
-  - Lightweight search engine for AI coding agents using hybrid local indexing.
-  - **Tags:** 🔓 open-source · 💻 local · 📄 parsing · 📚 rag
 
 ### 🏷️ Data labeling and evaluation
 
@@ -652,7 +652,7 @@
   - GPU cloud for pods, serverless inference, and AI deployment.
   - **Tags:** ☁️ hosted · 🧱 gpu-cloud · 🔌 api
 - [GMI Cloud](https://gmicloud.ai/)
-  - GPU-specialized cloud provider focused on high-availability and NVIDIA hardware.
+  - GPU-specialized cloud provider focused on NVIDIA hardware.
   - **Tags:** ☁️ hosted · 🧱 gpu-cloud
 - [NVIDIA DGX Cloud](https://www.nvidia.com/en-us/data-center/dgx-cloud/)
   - Fully managed, multi-node AI training-as-a-service platform.
