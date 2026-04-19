@@ -130,7 +130,7 @@
 - [Amp](https://sourcegraph.com/amp)
   - Sourcegraph's terminal-first coding agent optimized for search and enterprise scale.
   - **Tags:** ☁️ hosted · 💻 coding · 🤖 agents
-- [Pi (shitty-coding-agent)](https://shittycodingagent.ai/)
+- [Pi (shitty-coding-agent)](https://pi.dev)
   - Minimalist, extensible terminal-first coding agent created by Mario Zechner.
   - **Tags:** 🔓 open-source · 💻 coding · 🤖 agents
 - [Kilo Code](https://kilo.ai/)
@@ -163,7 +163,7 @@
 - [Bloop AI](https://bloop.ai/)
   - AI-powered code search and navigation for understanding large and complex codebases.
   - **Tags:** ☁️ hosted · 💻 coding · 🔎 search
-- [Google Antigravity](https://antigravity.dev)
+- [Google Antigravity](https://antigravity.google)
   - Google’s agent-first IDE (fork of VS Code) with built-in browser agent and manager.
   - **Tags:** ☁️ hosted · 💻 coding · 🤖 agents
 
@@ -279,6 +279,12 @@
 - [Antigravity](https://google.com/antigravity)
   - Google’s platform for building agentic apps that interact natively with OS and Workspace.
   - **Tags:** ☁️ hosted · 🧩 framework · 🤖 agents
+- [browser-use](https://github.com/browser-use/browser-use)
+  - Python library for making websites accessible to AI agents using Playwright and natural language.
+  - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
+- [browser-harness](https://github.com/browser-use/browser-harness)
+  - Lightweight, self-healing browser automation harness built directly on CDP for AI agents.
+  - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
 - [OpenHarness](https://github.com/zhijiewong/openharness)
   - Open-source framework for building agent tool-calling loops and skill governance.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
