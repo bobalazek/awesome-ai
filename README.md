@@ -293,6 +293,7 @@
 - [OpenViking](https://github.com/volcengine/OpenViking) - Open-source context database that organizes agent memories, resources, and skills through a filesystem paradigm. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🤖 agents
 - [Basic Memory](https://github.com/basicmachines-co/basic-memory) - Open-source, local-first memory system for AI assistants using MCP. · 🔓 open-source · 💻 local · 🧠 memory
 - [OpenMemory](https://mem0.ai/openmemory) - Persistent MCP memory layer for coding agents with project-scoped recall and memory management. · 🔓 open-source · 💻 local · 🧠 memory · 🤖 agents
+- [Engram](https://github.com/Gentleman-Programming/engram) - A local-first, agent-agnostic memory layer for AI assistants that uses SQLite + FTS5 for high-performance persistent context, featuring a topic-based upsert system and a TUI for memory management. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🤖 agents
 - [QMD (Query Markup Documents)](https://github.com/tobi/qmd) - Local CLI search engine and MCP server for personal knowledge bases and notes. · 🔓 open-source · 💻 local · 🧠 memory · 🔎 search
 - [Memgraph](https://memgraph.com/) - In-memory graph database used for GraphRAG and multi-hop reasoning. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🕸️ graph
 - [Graphiti](https://github.com/getzep/graphiti) - Temporal context graph engine for AI agents that tracks evolving facts, provenance, and hybrid retrieval. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🕸️ graph
