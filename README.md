@@ -4,31 +4,36 @@
 
 ## 📚 Contents
 
-- [🧩 Application layer](#-application-layer) - - [💬 Chatbots and AI assistants](#-chatbots-and-ai-assistants)
-  - [🔎 AI search and research](#-ai-search-and-research)
+- [🧩 Application layer](#-application-layer)
+  - [💬 Chatbots and AI assistants](#-chatbots-and-ai-assistants)
+  - [🔎 Search and research](#-search-and-research)
   - [🌐 Browser automation and web agents](#-browser-automation-and-web-agents)
-  - [💻 Coding agents and IDEs](#-coding-agents-and-ides)
+  - [💻 Coding agents, CLIs, and IDEs](#-coding-agents-clis-and-ides)
   - [🛠️ App builders and product tools](#️-app-builders-and-product-tools)
   - [👥 Team agents and collaborative tools](#-team-agents-and-collaborative-tools)
   - [📅 Productivity and meeting assistants](#-productivity-and-meeting-assistants)
   - [🧠 Personal knowledge and memory agents](#-personal-knowledge-and-memory-agents)
-- [⚙️ Orchestration and logic layer](#️-orchestration-and-logic-layer) - - [🔀 Model routing and gateways](#-model-routing-and-gateways)
+- [⚙️ Orchestration and logic layer](#️-orchestration-and-logic-layer)
+  - [🔀 Model routing and gateways](#-model-routing-and-gateways)
   - [🤖 Agent frameworks](#-agent-frameworks)
   - [🧩 Workflow and automation](#-workflow-and-automation)
   - [📐 Prompt, spec, and context engineering](#-prompt-spec-and-context-engineering)
   - [🧪 Evaluation and observability](#-evaluation-and-observability)
   - [🛤️ Agentic methodologies and conventions](#️-agentic-methodologies-and-conventions)
-- [🧠 Machine learning and model layer](#-machine-learning-and-model-layer) - - [🧪 AI labs and model creators](#-ai-labs-and-model-creators)
+- [🧠 Machine learning and model layer](#-machine-learning-and-model-layer)
+  - [🧪 AI labs and model creators](#-ai-labs-and-model-creators)
   - [🔌 Model APIs and inference providers](#-model-apis-and-inference-providers)
   - [🎨 Media and creative labs](#-media-and-creative-labs)
   - [🧬 Embeddings and rerankers](#-embeddings-and-rerankers)
-- [🗃️ Data layer](#️-data-layer) - - [🧠 Memory systems](#-memory-systems)
+- [🗃️ Data layer](#️-data-layer)
+  - [🧠 Memory systems](#-memory-systems)
   - [🗂️ Vector databases](#️-vector-databases)
-  - [📚 Retrieval and RAG tooling](#-retrieval-and-rag-tooling)
+  - [📚 Retrieval, web search, and RAG tooling](#-retrieval-web-search-and-rag-tooling)
   - [🏷️ Data labeling and evaluation](#️-data-labeling-and-evaluation)
   - [🕸️ Knowledge graphs and structured context](#️-knowledge-graphs-and-structured-context)
   - [📄 Document parsing and ingestion](#-document-parsing-and-ingestion)
-- [🧱 Infrastructure and compute layer](#-infrastructure-and-compute-layer) - - [☁️ GPU cloud and compute](#️-gpu-cloud-and-compute)
+- [🧱 Infrastructure and compute layer](#-infrastructure-and-compute-layer)
+  - [☁️ GPU cloud and compute](#️-gpu-cloud-and-compute)
   - [🏠 Self-hosted runtimes](#-self-hosted-runtimes)
   - [💻 Local AI apps](#-local-ai-apps)
   - [🚀 Model serving and inference engines](#-model-serving-and-inference-engines)
@@ -45,15 +50,19 @@
 - [Gemini](https://gemini.google.com/) - Google’s assistant for productivity, multimodal work, and broader consumer AI usage. · ☁️ hosted · 🔌 api · 💬 chat · 📝 text · 🖼️ image · 🎧 audio
 - [Poe](https://poe.com/) - Multi-model chat product that lets users access many assistants and generation tools in one place. · ☁️ hosted · 💬 chat · 📝 text · 🖼️ image · 🎬 video · 🎧 audio
 - [T3 Chat](https://t3.chat/) - Fast multi-model chat product built around quick responses, model switching, optional search, and lightweight threads. · ☁️ hosted · 💬 chat · 🔎 search · 📝 text · 💻 coding
+- [Onyx](https://onyx.app/) - Open-source AI chat workspace connected to your docs, apps, people, and internal knowledge. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💬 chat · 🔎 search · 📚 rag · 🤖 agents
 - [Galaxy.ai](https://www.galaxy.ai/) - Aggregated AI workspace that bundles many models and tools behind one interface. · ☁️ hosted · 💬 chat · 📝 text · 🖼️ image · 🎬 video · 🎧 audio
 - [DoAnything AI](https://doanything.ai/) - General-purpose agent platform for executing multi-step tasks and workflows via natural language. · ☁️ hosted · 💬 chat · 🤖 agents · 🛠️ workflow
 - [Character.ai](https://character.ai/) - Leading platform for roleplaying and interacting with AI-powered fictional and historical personas. · ☁️ hosted · 💬 chat · 🎭 roleplay
 - [Kindroid](https://kindroid.ai/) - AI companion platform focused on realistic long-term memory and multimodal interactions. · ☁️ hosted · 💬 chat · 🧠 memory · 👥 companion
 
-### 🔎 AI search and research
+### 🔎 Search and research
 
 - [Perplexity](https://www.perplexity.ai/) - Search-first AI product for web research, cited answers, and discovery workflows. · ☁️ hosted · 🔌 api · 💬 chat · 🔎 search · 📝 text
 - [Phind](https://www.phind.com/) - Technical search and answer engine aimed at developers and engineering-heavy research. · ☁️ hosted · 💬 chat · 🔎 search · 💻 coding · 📝 text
+- [Brave Search](https://search.brave.com/) - Independent web search engine focused on privacy, its own index, and AI-assisted search features like Summarizer and Goggles. · ☁️ hosted · 🔎 search · 📝 text
+- [Kagi](https://kagi.com/) - Premium privacy-respecting search engine with personalized ranking controls, lenses, and power-user search workflows. · ☁️ hosted · 🔎 search · 📝 text
+- [Mojeek](https://www.mojeek.com/) - Independent no-tracking search engine focused on its own web index and user-controlled search experiences. · ☁️ hosted · 🔎 search · 📝 text
 - [Consensus](https://consensus.app/) - AI search engine that finds answers across peer-reviewed scientific papers. · ☁️ hosted · 🔎 search · 🧪 research
 - [Elicit](https://elicit.com/) - Automated research assistant that analyzes and summarizes literature at scale. · ☁️ hosted · 🔎 search · 🧪 research
 - [SciSpace](https://typeset.io/) - Platform for chatting with PDFs and understanding complex scientific literature. · ☁️ hosted · 🔎 search · 🧪 research
@@ -66,15 +75,17 @@
 - [ChatGPT Atlas](https://openai.com/atlas) - OpenAI's browser-native agent for navigating the web and taking actions on the user's behalf. · ☁️ hosted · 🛠️ workflow · 🤖 agents
 - [Perplexity Comet](https://perplexity.ai/comet) - AI-native browser with built-in assistants for form-filling, research, and calendar management. · ☁️ hosted · 🛠️ workflow · 🤖 agents · 🔎 search
 
-### 💻 Coding agents and IDEs
+### 💻 Coding agents, CLIs, and IDEs
 
 - [Cursor](https://cursor.com/) - AI-native editor built around repo context, multi-file editing, and agentic workflows. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Claude Code](https://claude.com/product/claude-code) - Terminal-first coding agent for codebase work, edits, investigation, and longer-running tasks. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Codex](https://openai.com/codex/) - OpenAI’s coding agent for software tasks, code changes, and development workflows. · ☁️ hosted · 💻 coding · 🤖 agents
 - [T3 Code](https://t3.codes/) - Minimal open-source GUI for coding agents, currently focused on Codex and Claude-style terminal workflows. · 🔓 open-source · 💻 coding · 🤖 agents
 - [GitHub Copilot](https://github.com/features/copilot) - AI coding assistant integrated into IDEs, terminals, GitHub, and code review flows. · ☁️ hosted · 💻 coding · 🤖 agents
+- [GitHub Copilot CLI](https://github.com/features/copilot/cli) - GitHub’s terminal coding agent with multi-model support, MCP integrations, autopilot mode, and parallel fleet workflows. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Windsurf](https://windsurf.com/) - AI coding product from the Codeium team focused on editor-native agentic development. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Amp](https://sourcegraph.com/amp) - Sourcegraph's terminal-first coding agent optimized for search and enterprise scale. · ☁️ hosted · 💻 coding · 🤖 agents
+- [Goose](https://goose-docs.ai/) - Open-source local AI agent with desktop, CLI, and API interfaces for code, automation, MCP workflows, and subagents. · 🔓 open-source · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
 - [Pi (shitty-coding-agent)](https://pi.dev) - Minimalist, extensible terminal-first coding agent created by Mario Zechner. · 🔓 open-source · 💻 coding · 🤖 agents
 - [Kilo Code](https://kilo.ai/) - Open-source coding agent (formerly Kilo Row) for editors, CLI workflows, and cloud execution. · 🔓 open-source · ☁️ hosted · 💻 coding · 🤖 agents
 - [Roo Code](https://roocode.com/) - Open-source AI dev team for VS Code and cloud delegation with role-specific modes, permission-gated tools, and broad model support. · 🔓 open-source · ☁️ hosted · 💻 coding · 🤖 agents
@@ -83,6 +94,7 @@
 - [Continue](https://www.continue.dev/) - Open-source framework for building custom coding assistants inside existing editors. · 🔓 open-source · 💻 coding · 🤖 agents
 - [OpenHands](https://openhands.dev/) - Open platform for coding agents and autonomous repository task execution. · 🔓 open-source · ☁️ hosted · 💻 coding · 🤖 agents
 - [OpenCode](https://opencode.ai/) - Open-source coding agent for terminal, IDE, and desktop workflows with multi-session execution and broad provider support. · 🔓 open-source · 💻 coding · 🤖 agents
+- [OpenClaude](https://github.com/Gitlawb/openclaude) - Open-source terminal coding-agent CLI for local and cloud providers with MCP, tasks, slash commands, and multi-provider support. · 🔓 open-source · 💻 coding · 🤖 agents
 - [Gemini CLI](https://github.com/google/gemini-cli) - Google’s open-source terminal agent for high-speed file manipulation and shell execution. · 🔓 open-source · 💻 coding · 🤖 agents
 - [Morph](https://morphllm.com/) - Coding agent utility that provides ultra-fast code search and instant edit application. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Plandex](https://plandex.ai/) - Terminal-based AI coding agent designed for complex, multi-file tasks with sandbox planning. · 🔓 open-source · 💻 coding · 🤖 agents
@@ -99,15 +111,15 @@
 
 ### 👥 Team agents and collaborative tools
 
-- [Devin](https://cognition.ai/) - Autonomous software agent product aimed at longer-running engineering work. · ☁️ hosted · 💻 coding · 🤖 agents
+- [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal AI agent platform with multi-channel inboxes, routing, tools, and collaborative workflow surfaces across chat platforms. · 🔓 open-source · 🤖 agents · 💬 chat
 - [Harness AI](https://harness.io/products/ai-code-assistant) - Commercial platform and coding agent focused on automating the full software lifecycle. · ☁️ hosted · 💻 coding · 🤖 agents · 🛠️ workflow
-- [Factory](https://factory.ai/) - Agent-native software development platform that embeds coding agents across IDEs, CLI, Slack, project backlogs, and CI/CD. · ☁️ hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
-- [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal AI agent that can act across tools and chat platforms. · 🔓 open-source · 🤖 agents · 💬 chat
 - [Hermes Agent](https://hermes-agent.ai/) - Long-lived agent system from Nous Research focused on memory and tool workflows. · ☁️ hosted · 🤖 agents · 🧠 memory
+- [Factory](https://factory.ai/) - Agent-native software development platform built around Factory Droid across IDEs, CLI, Slack, project backlogs, and CI/CD. · ☁️ hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
+- [HumanLayer](https://github.com/humanlayer/humanlayer) - Approval and collaboration layer for teams using coding agents in real production workflows. · 🔓 open-source · ☁️ hosted · 🤖 agents · 👥 team
 - [Vellum](https://www.vellum.ai/) - Enterprise agent control plane for building, testing, and monitoring AI agents. · ☁️ hosted · 🤖 agents · 🧪 observability
 - [Agentforce](https://www.salesforce.com/agentforce/) - Salesforce’s low-code platform for building autonomous business agents. · ☁️ hosted · 🤖 agents · 🛠️ workflow
-- [HumanLayer](https://github.com/humanlayer/humanlayer) - Approval and collaboration layer for teams using coding agents in real production workflows. · 🔓 open-source · ☁️ hosted · 🤖 agents · 👥 team
 - [Kore.ai](https://kore.ai/) - Enterprise conversational AI platform for scaling thousands of agents. · ☁️ hosted · 🤖 agents · 🛠️ workflow
+- [Devin](https://cognition.ai/) - Autonomous software agent product aimed at longer-running engineering work. · ☁️ hosted · 💻 coding · 🤖 agents
 
 ### 📅 Productivity and meeting assistants
 
@@ -218,6 +230,7 @@
 - [Fireworks AI](https://fireworks.ai/) - Fast inference platform for open-source models and production AI workloads. · ☁️ hosted · 🔌 api · 🔓 open-source tooling · 📝 text · 🎧 audio
 - [Replicate](https://replicate.com/) - Execution platform covering a broad range of open and custom models. · ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎬 video · 🎧 audio
 - [fal](https://fal.ai/) - Media infrastructure for image, video, audio, and custom model serving. · ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video · 🎧 audio
+- [Ollama](https://ollama.com/) - Local model runtime that now also provides access to cloud models through the same CLI, API, and desktop apps. · 💻 local · 🏠 self-hosted · ☁️ hosted · 🪶 open-weights · 🔌 api · 📝 text · 💻 coding
 - [Runware](https://runware.ai/) - API platform for image, video, audio, text, and 3D generation. · ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video · 🎧 audio · 📝 text
 - [SiliconFlow](https://siliconflow.cn/) - Unified AI cloud for fast, cost-efficient deployment of open-source models. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🎬 video
 - [Gcore](https://gcore.com/) - Global edge network provider for low-latency enterprise AI workloads. · ☁️ hosted · 🔌 api · 🧱 infra
@@ -274,12 +287,18 @@
 - [Milvus](https://milvus.io/) - High-scale vector database for large-scale retrieval and search systems. · 🔓 open-source · 🏠 self-hosted · 🗂️ vector-db · 📚 rag
 - [Chroma](https://www.trychroma.com/) - Simple vector storage and search layer aimed at AI application development. · 🔓 open-source · 🏠 self-hosted · 🗂️ vector-db · 📚 rag
 
-### 📚 Retrieval and RAG tooling
+### 📚 Retrieval, web search, and RAG tooling
 
 - [Smithery](https://smithery.ai/) - Marketplace for MCP servers to extend agents with external tools and data. · ☁️ hosted · 🔌 api · 🛠️ workflow
 - [Tavily](https://tavily.com/) - Search engine built for AI agents and RAG with structured context. · ☁️ hosted · 🔌 api · 🔎 search · 📚 rag
 - [Exa](https://exa.ai/) - Neural search engine that uses embeddings to find semantic context. · ☁️ hosted · 🔌 api · 🔎 search · 📚 rag
+- [Brave Search API](https://brave.com/search/api/) - Independent web search API for agents, chatbots, and RAG apps backed by Brave’s own search index. · ☁️ hosted · 🔌 api · 🔎 search · 📚 rag
+- [SerpApi](https://serpapi.com/) - Search API platform for accessing Google, Bing, Yandex, and other SERPs in structured JSON. · ☁️ hosted · 🔌 api · 🔎 search
 - [Serper](https://serper.dev/) - Low-cost Google Search API designed specifically for AI agents. · ☁️ hosted · 🔌 api · 🔎 search
+- [Google Programmable Search Engine](https://developers.google.com/custom-search/v1/overview) - Google-backed programmable search service for retrieving web and image results through a configurable JSON API. · ☁️ hosted · 🔌 api · 🔎 search
+- [Mojeek Web Search API](https://www.mojeek.com/services/search/web-search-api/) - Independent web search API exposing Mojeek’s own index for embedded search, AI apps, and custom ranking workflows. · ☁️ hosted · 🔌 api · 🔎 search
+- [SearXNG](https://docs.searxng.org/) - Free and self-hostable metasearch engine that aggregates results from many search services without tracking users. · 🔓 open-source · 🏠 self-hosted · 🔎 search
+- [YaCy](https://yacy.net/) - Open-source decentralized search engine you can run locally or for an organization. · 🔓 open-source · 🏠 self-hosted · 🔎 search
 - [Firecrawl](https://www.firecrawl.dev/) - Web scraping service that returns LLM-ready markdown from any URL. · ☁️ hosted · 🔌 api · 📄 parsing
 - [Jina Reader](https://r.jina.ai/) - Simple API to convert any web URL into clean markdown for LLMs. · ☁️ hosted · 🔌 api · 📄 parsing · 🔎 search
 
@@ -338,3 +357,4 @@
 
 - [Open WebUI](https://github.com/open-webui/open-webui) - Self-hosted chat interface for Ollama and OpenAI backends. · 🔓 open-source · 🏠 self-hosted · 💬 chat
 - [AnythingLLM](https://anythingllm.com/) - All-in-one workspace for document chat, RAG, and remote backends. · ☁️ hosted · 🏠 self-hosted · 💬 chat · 📚 rag · 🧠 memory
+- [Onyx](https://onyx.app/) - Open-source AI workspace for internal chat, enterprise search, agents, and connected knowledge across self-hosted or cloud deployments. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💬 chat · 🔎 search · 📚 rag · 🤖 agents
