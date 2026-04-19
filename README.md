@@ -16,18 +16,17 @@
   - [🧩 Workflow and automation](#-workflow-and-automation)
   - [📐 Prompt, spec, and context engineering](#-prompt-spec-and-context-engineering)
   - [🧪 Evaluation and observability](#-evaluation-and-observability)
+  - [🛤️ Agentic methodologies and conventions](#️-agentic-methodologies-and-conventions)
 - [🧠 Machine learning and model layer](#-machine-learning-and-model-layer)
   - [🧪 AI labs and model creators](#-ai-labs-and-model-creators)
   - [🔌 Model APIs and inference providers](#-model-apis-and-inference-providers)
-  - [📝 Text and reasoning models](#-text-and-reasoning-models)
-  - [🖼️ Image model platforms](#️-image-model-platforms)
-  - [🎬 Video model platforms](#-video-model-platforms)
-  - [🎧 Audio and voice model platforms](#-audio-and-voice-model-platforms)
+  - [🎨 Media and creative labs](#-media-and-creative-labs)
   - [🧬 Embeddings and rerankers](#-embeddings-and-rerankers)
 - [🗃️ Data layer](#️-data-layer)
   - [🧠 Memory systems](#-memory-systems)
   - [🗂️ Vector databases](#️-vector-databases)
   - [📚 Retrieval and RAG tooling](#-retrieval-and-rag-tooling)
+  - [🏷️ Data labeling and evaluation](#️-data-labeling-and-evaluation)
   - [🕸️ Knowledge graphs and structured context](#️-knowledge-graphs-and-structured-context)
   - [📄 Document parsing and ingestion](#-document-parsing-and-ingestion)
 - [🧱 Infrastructure and compute layer](#-infrastructure-and-compute-layer)
@@ -47,6 +46,9 @@
 - [Claude](https://claude.ai/)
   - Long-context assistant focused on reasoning, writing, analysis, and code-heavy workflows.
   - **Tags:** ☁️ hosted · 🔌 api · 💬 chat · 📝 text · 💻 coding · 🤖 agents
+- [Pi](https://pi.ai/)
+  - Personal AI assistant by Inflection focused on supportive, natural, and high-EQ conversation.
+  - **Tags:** ☁️ hosted · 💬 chat · 🧠 memory · 👥 companion
 - [You.com](https://you.com/)
   - AI-powered search and aggregator providing access to multiple frontier models in one interface.
   - **Tags:** ☁️ hosted · 🔌 api · 💬 chat · 🔎 search · 📝 text
@@ -107,6 +109,12 @@
 - [Windsurf](https://windsurf.com/)
   - AI coding product from the Codeium team focused on editor-native agentic development.
   - **Tags:** ☁️ hosted · 💻 coding · 🤖 agents
+- [Amp](https://sourcegraph.com/amp)
+  - Sourcegraph's terminal-first coding agent optimized for search and enterprise scale.
+  - **Tags:** ☁️ hosted · 💻 coding · 🤖 agents
+- [Pi (shitty-coding-agent)](https://shittycodingagent.ai/)
+  - Minimalist, extensible terminal-first coding agent created by Mario Zechner.
+  - **Tags:** 🔓 open-source · 💻 coding · 🤖 agents
 - [Kilo Code](https://kilo.ai/)
   - Open-source coding agent (formerly Kilo Row) for editors, CLI workflows, and cloud execution.
   - **Tags:** 🔓 open-source · ☁️ hosted · 💻 coding · 🤖 agents
@@ -158,6 +166,9 @@
 - [Devin](https://cognition.ai/)
   - Autonomous software agent product aimed at longer-running engineering work.
   - **Tags:** ☁️ hosted · 💻 coding · 🤖 agents
+- [Harness AI](https://harness.io/products/ai-code-assistant)
+  - Commercial platform and coding agent focused on automating the full software lifecycle.
+  - **Tags:** ☁️ hosted · 💻 coding · 🤖 agents · 🛠️ workflow
 - [OpenClaw](https://github.com/openclaw/openclaw)
   - Open-source personal AI agent that can act across tools and chat platforms.
   - **Tags:** 🔓 open-source · 🤖 agents · 💬 chat
@@ -170,6 +181,9 @@
 - [Agentforce](https://www.salesforce.com/agentforce/)
   - Salesforce’s low-code platform for building autonomous business agents.
   - **Tags:** ☁️ hosted · 🤖 agents · 🛠️ workflow
+- [HumanLayer](https://www.humanlayer.dev/)
+  - Approval and collaboration layer for teams using coding agents in real production workflows.
+  - **Tags:** ☁️ hosted · 🤖 agents · 💻 coding · 👥 team
 - [Kore.ai](https://kore.ai/)
   - Enterprise conversational AI platform for scaling thousands of agents.
   - **Tags:** ☁️ hosted · 🤖 agents · 🛠️ workflow
@@ -217,6 +231,9 @@
 - [Antigravity](https://google.com/antigravity)
   - Google’s platform for building agentic apps that interact natively with OS and Workspace.
   - **Tags:** ☁️ hosted · 🧩 framework · 🤖 agents
+- [OpenHarness](https://github.com/knightli/openharness)
+  - Open-source infrastructure layer for building agent tool-calling loops and skill governance.
+  - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
 - [Griptape](https://www.griptape.ai/)
   - Python framework for building modular and security-first AI agents and pipelines.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
@@ -226,7 +243,7 @@
 - [PydanticAI](https://ai.pydantic.dev/)
   - Python agent framework focused on validation, structure, and typed outputs.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
-- [BMAD](https://github.com/bobalazek/bmad)
+- [BMAD](https://github.com/bmad-code-org/BMAD-METHOD)
   - Breakthrough Method for Agile AI-Driven Development—an open framework for multi-agent software engineering.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents · 📐 prompts
 
@@ -235,6 +252,12 @@
 - [n8n](https://n8n.io/)
   - Workflow automation platform with strong AI, API, and developer integration support.
   - **Tags:** 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 🛠️ workflow · 🤖 agents
+- [Vibe Kanban](https://vibekanban.com/)
+  - Visual orchestration layer for managing parallel AI agents using Kanban boards and Git worktrees.
+  - **Tags:** 🔓 open-source · 🤖 agents · 🛠️ workflow
+- [Schaltwerk](https://github.com/fredrik-sh/schaltwerk)
+  - Desktop application for running and reviewing parallel terminal agents in a spec-driven flow.
+  - **Tags:** 🔓 open-source · 🏠 self-hosted · 🤖 agents · 🛠️ workflow
 - [Zapier Central](https://zapier.com/central)
   - Marketplace for automation agents that connect to thousands of business applications.
   - **Tags:** ☁️ hosted · 🛠️ workflow · 🤖 agents
@@ -268,9 +291,6 @@
 - [OpenSpec](https://openspec.dev/)
   - Spec-driven development tooling for AI coding and agent workflows.
   - **Tags:** 🔓 open-source · 💻 coding · 📐 specs
-- [HumanLayer](https://www.humanlayer.dev/)
-  - Approval and collaboration layer for teams using coding agents in real workflows.
-  - **Tags:** ☁️ hosted · 🤖 agents · 💻 coding · 👥 team
 - [Claude Super Prompt System](https://claude.ai/super-prompt)
   - Advanced prompt engineering framework for maximizing reasoning capabilities.
   - **Tags:** 📐 prompts · 📝 text · 🤖 agents
@@ -296,37 +316,76 @@
   - CLI-first issue tracker and context layer specifically designed for AI agents.
   - **Tags:** ☁️ hosted · 🤖 agents · 🧪 observability · 💻 coding
 
+### 🛤️ Agentic methodologies and conventions
+
+- [Git Shit Done (GSD)](https://github.com/fredharper/git-shit-done)
+  - A philosophy and set of GitOps conventions focused on high-velocity agentic engineering.
+  - **Tags:** 📝 convention · 🤖 agents · 💻 coding
+- [Vibe Coding](https://vibecoding.com/)
+  - A paradigm shift toward orchestrating, planning, and reviewing agents rather than manual typing.
+  - **Tags:** 📝 methodology · 🤖 agents · 💻 coding
+
 ## 🧠 Machine learning and model layer
 
 ### 🧪 AI labs and model creators
 
 - [OpenAI](https://openai.com/)
-  - Frontier AI lab behind GPT and unified reasoning/multimodal model families.
-  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🖼️ image · 🎧 audio · 🧪 lab
+  - Frontier AI lab behind the GPT family and unified reasoning/multimodal systems.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🖼️ image · 🎧 audio · 🎬 video · 🧪 lab
 - [Anthropic](https://www.anthropic.com/)
-  - AI lab behind Claude with focus on high-reasoning and coding adoption.
+  - AI lab behind Claude with a focus on high-reasoning and agentic workflows.
   - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🤖 agents · 🧪 lab
-- [Google AI](https://ai.google/)
-  - Google’s AI lab and platform for the Gemini multimodal model family.
-  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎧 audio · 🧪 lab
-- [xAI](https://x.ai/)
-  - Model provider behind the Grok family of reasoning-focused models.
-  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🧪 lab
+- [Google DeepMind](https://deepmind.google/)
+  - Google’s flagship AI lab behind Gemini and multimodal reasoning research.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎧 audio · 🎬 video · 🧪 lab
+- [Meta AI](https://ai.meta.com/)
+  - Creators of the Llama open-weight model family and creative media research.
+  - **Tags:** 🪶 open-weights · 🔌 api · 📝 text · 💻 coding · 🖼️ image · 🧪 lab
 - [Mistral AI](https://mistral.ai/)
-  - Frontier model company offering both hosted APIs and open-weight models.
+  - Leading European AI lab offering both hosted APIs and open-weight models.
+  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 💻 coding · 🧪 lab
+- [xAI](https://x.ai/)
+  - AI lab focused on large-scale reasoning and deep ecosystem integration.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🧪 lab
+- [DeepSeek](https://deepseek.com/)
+  - Disruptive lab known for high-performance reasoning and coding models.
   - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 💻 coding · 🧪 lab
 - [Cohere](https://cohere.com/)
-  - Enterprise AI provider focused on text, embeddings, and retrieval workflows.
+  - Enterprise-focused lab specializing in text, embeddings, and retrieval.
   - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🧬 embeddings · 📚 rag · 🧪 lab
-- [DeepSeek](https://platform.deepseek.com/)
-  - Provider known for strong coding and high-reasoning models.
-  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 💻 coding · 🧪 lab
 - [MiniMax](https://www.minimax.io/)
-  - Multimodal model company spanning text, audio, video, music, and agents.
-  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🎧 audio · 🎬 video · 🎼 music · 🤖 agents · 🧪 lab
-- [Z.ai](https://z.ai/)
-  - Provider of GLM models for chat, coding, agents, and API workflows.
-  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🤖 agents · 🧪 lab
+  - Multimodal lab spanning text, audio, video, music, and autonomous agents.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🎧 audio · 🎬 video · 🎼 music · 🧪 lab
+- [Zhipu AI](https://www.zhipuai.cn/)
+  - Leading lab known for the GLM family and multimodal media generation.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🎬 video · 🧪 lab
+- [Moonshot AI](https://www.moonshot.ai/)
+  - Lab specializing in long-context processing and large-scale reasoning models.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🧪 lab
+- [01.ai](https://www.01.ai/)
+  - AI lab focused on high-performance model families and global scaling.
+  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🧪 lab
+- [Baichuan Intelligence](https://www.baichuan-ai.com/)
+  - Creators of high-performance open-source and proprietary language models.
+  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🧪 lab
+- [StepFun](https://www.stepfun.com/)
+  - AI lab focused on efficient reasoning models and agentic swarms.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🧪 lab
+- [Aleph Alpha](https://aleph-alpha.com/)
+  - European lab focused on sovereign AI for highly regulated industries.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🧪 lab
+- [Silo AI](https://silo.ai/)
+  - Large European lab (acquired by AMD) focused on custom enterprise AI solutions.
+  - **Tags:** ☁️ hosted · 🧪 lab · 🛠️ custom
+- [DeepL](https://www.deepl.com/)
+  - Specialized AI lab focused on world-leading translation and language processing.
+  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🧪 lab
+- [Adept](https://www.adept.ai/)
+  - Lab focused on action-oriented models and autonomous software workflows.
+  - **Tags:** ☁️ hosted · 🤖 agents · 🧪 lab
+- [Inflection AI](https://inflection.ai/)
+  - AI lab focused on high-EQ conversational systems and personal assistants.
+  - **Tags:** ☁️ hosted · 💬 chat · 🧪 lab
 
 ### 🔌 Model APIs and inference providers
 
@@ -348,6 +407,15 @@
 - [Runware](https://runware.ai/)
   - API platform for image, video, audio, text, and 3D generation.
   - **Tags:** ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video · 🎧 audio · 📝 text
+- [SiliconFlow](https://siliconflow.cn/)
+  - Unified AI cloud for fast, cost-efficient deployment of open-source models.
+  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🎬 video
+- [Gcore](https://gcore.com/)
+  - Global edge network provider for low-latency enterprise AI workloads.
+  - **Tags:** ☁️ hosted · 🔌 api · 🧱 infra
+- [NVIDIA NIM](https://www.nvidia.com/en-us/ai-data-science/generative-ai/nim/)
+  - Optimized inference microservices for deploying generative AI on NVIDIA GPUs.
+  - **Tags:** ☁️ hosted · 🔌 api · 🧱 infra
 - [Groq](https://groq.com/)
   - Ultra-fast LPU inference platform for language models with sub-second latency.
   - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🧱 infra
@@ -358,62 +426,35 @@
   - Full-stack AI platform and cloud for fast inference of open models.
   - **Tags:** ☁️ hosted · 🔌 api · 🧱 infra · 📝 text
 
-### 📝 Text and reasoning models
-
-- [DeepSeek R1](https://deepseek.com/r1)
-  - Frontier reasoning model with strong coding, math, and logic performance.
-  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 💻 coding
-- [GPT-4o / o1 / o3 / 5](https://openai.com/)
-  - OpenAI's family of multimodal and reasoning-heavy language models.
-  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎧 audio
-- [Claude 3.5 / 4 / Mythos](https://anthropic.com/)
-  - Anthropic's frontier models focused on reasoning, coding, and reliability.
-  - **Tags:** ☁️ hosted · 🔌 api · 📝 text · 💻 coding
-- [Llama 4 / Scout / Behemoth](https://meta.com/llama)
-  - Meta's latest open-weight frontier model family with massive context windows.
-  - **Tags:** 🪶 open-weights · 🔌 api · 📝 text · 💻 coding
-
-### 🖼️ Image model platforms
+### 🎨 Media and creative labs
 
 - [Black Forest Labs](https://blackforestlabs.ai/)
-  - Image model lab best known for the FLUX family of high-fidelity models.
-  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image
+  - Media lab best known for the FLUX family of high-fidelity image models.
+  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🧪 lab
 - [Stability AI](https://stability.ai/)
-  - Generative AI company with strong image and media model ecosystems.
-  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🎬 video
-
-### 🎬 Video model platforms
-
-- [Sora 2](https://openai.com/sora)
-  - OpenAI's cinematic video generation model with synchronized audio.
-  - **Tags:** ☁️ hosted · 🎬 video · 🎧 audio
-- [Runway Gen-4](https://runwayml.com/)
-  - Professional-grade video generation with 4K output and character consistency.
-  - **Tags:** ☁️ hosted · 🔌 api · 🎬 video
-- [Kling 3.0](https://klingai.com/)
-  - High-speed video generation capable of multi-shot consistent sequences.
-  - **Tags:** ☁️ hosted · 🔌 api · 🎬 video
-- [Luma Dream Machine 2](https://lumalabs.ai/dream-machine)
-  - Fast, high-quality video generation optimized for social media iteration.
-  - **Tags:** ☁️ hosted · 🔌 api · 🎬 video
-- [Veo 3.1](https://deepmind.google/technologies/veo/)
-  - Google's video model focused on natural performances and lip-syncing.
-  - **Tags:** ☁️ hosted · 🔌 api · 🎬 video
-
-### 🎧 Audio and voice model platforms
-
+  - Generative lab with a focus on open-weight image and media ecosystems.
+  - **Tags:** ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🎬 video · 🧪 lab
+- [Runway](https://runwayml.com/)
+  - Creative lab focused on professional-grade video generation and VFX tools.
+  - **Tags:** ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
+- [Kling AI](https://klingai.com/)
+  - Media lab known for high-speed, physics-aware cinematic video generation.
+  - **Tags:** ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
+- [Luma AI](https://lumalabs.ai/)
+  - Creative lab focused on fast video generation and 3D scene reconstruction.
+  - **Tags:** ☁️ hosted · 🔌 api · 🎬 video · 🖼️ image · 🧪 lab
 - [ElevenLabs](https://elevenlabs.io/)
-  - Multimodal audio platform for voice, music, SFX, and real-time agents.
-  - **Tags:** ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🎼 music
-- [Suno v5](https://suno.com/)
-  - State-of-the-art music generation capable of long-form emotional tracks.
-  - **Tags:** ☁️ hosted · 🎼 music · 🎧 audio
-- [Udio v3](https://udio.com/)
-  - Pro-focused music generation for long-form tracks with advanced remixing.
-  - **Tags:** ☁️ hosted · 🎼 music · 🎧 audio
-- [AssemblyAI](https://www.assemblyai.com/)
-  - Speech AI provider focused on transcription and audio intelligence APIs.
-  - **Tags:** ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice
+  - Leading lab for hyper-realistic voice, music, and multimodal audio systems.
+  - **Tags:** ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🎼 music · 🧪 lab
+- [Suno](https://suno.com/)
+  - Creative lab specializing in high-fidelity, full-track music generation.
+  - **Tags:** ☁️ hosted · 🎼 music · 🎧 audio · 🧪 lab
+- [Udio](https://udio.com/)
+  - Media lab focused on professional-grade music creation and remixing.
+  - **Tags:** ☁️ hosted · 🎼 music · 🎧 audio · 🧪 lab
+- [Hume AI](https://hume.ai/)
+  - Specialized lab focused on empathetic voice agents and emotional intelligence.
+  - **Tags:** ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🧪 lab
 
 ### 🧬 Embeddings and rerankers
 
@@ -432,8 +473,17 @@
 ### 🧠 Memory systems
 
 - [Mem0](https://mem0.ai/)
-  - Memory layer for AI apps that need persistent user or workflow context.
+  - Memory layer for AI apps and agents that need persistent user or workflow context.
   - **Tags:** ☁️ hosted · 🧠 memory · 🤖 agents
+- [Honcho](https://honcho.dev/)
+  - Memory server for stateful agents using dialectic reasoning to build user models.
+  - **Tags:** ☁️ hosted · 🧠 memory · 🤖 agents
+- [MemoryOS](https://github.com/mOS-MemoryOS/MemoryOS)
+  - Hierarchical memory management system providing short, mid, and long-term storage for agents.
+  - **Tags:** 🔓 open-source · 🧠 memory · 🤖 agents
+- [cognee](https://cognee.ai/)
+  - Open-source AI memory engine using knowledge graphs for persistent context.
+  - **Tags:** 🔓 open-source · 🧠 memory · 🤖 agents
 - [MemPalace](https://github.com/mempalace/mempalace)
   - Open-source persistent memory system for building long-context agents.
   - **Tags:** 🔓 open-source · 🧠 memory · 🤖 agents
@@ -482,6 +532,9 @@
 
 ### 📚 Retrieval and RAG tooling
 
+- [Smithery](https://smithery.ai/)
+  - Marketplace for MCP servers to extend agents with external tools and data.
+  - **Tags:** ☁️ hosted · 🔌 api · 🛠️ workflow
 - [Tavily](https://tavily.com/)
   - Search engine built for AI agents and RAG with structured context.
   - **Tags:** ☁️ hosted · 🔌 api · 🔎 search · 📚 rag
@@ -497,6 +550,21 @@
 - [Jina Reader](https://r.jina.ai/)
   - Simple API to convert any web URL into clean markdown for LLMs.
   - **Tags:** ☁️ hosted · 🔌 api · 📄 parsing · 🔎 search
+- [QMD](https://github.com/tobi/qmd)
+  - Lightweight search engine for AI coding agents using hybrid local indexing.
+  - **Tags:** 🔓 open-source · 💻 local · 📄 parsing · 📚 rag
+
+### 🏷️ Data labeling and evaluation
+
+- [Scale AI](https://scale.com/)
+  - Data platform for AI providing high-quality training data, RLHF, and evaluation.
+  - **Tags:** ☁️ hosted · 🛠️ labeling · 🧪 research
+- [Labelbox](https://labelbox.com/)
+  - Data-centric AI platform for labeling, orchestrating, and evaluating training data.
+  - **Tags:** ☁️ hosted · 🛠️ labeling
+- [Snorkel AI](https://snorkel.ai/)
+  - Programmatic data labeling platform focused on high-scale enterprise AI development.
+  - **Tags:** ☁️ hosted · 🛠️ labeling
 
 ### 🕸️ Knowledge graphs and structured context
 
@@ -517,17 +585,35 @@
 
 ### ☁️ GPU cloud and compute
 
+- [AWS AI](https://aws.amazon.com/ai/)
+  - Comprehensive AI cloud including Amazon Bedrock (API-first) and SageMaker (platform).
+  - **Tags:** ☁️ hosted · 🧱 gpu-cloud · 🔌 api
+- [Azure AI](https://azure.microsoft.com/en-us/solutions/ai)
+  - Microsoft’s enterprise AI cloud featuring Azure OpenAI Service and custom ML tools.
+  - **Tags:** ☁️ hosted · 🧱 gpu-cloud · 🔌 api
+- [Google Vertex AI](https://cloud.google.com/vertex-ai)
+  - Unified AI platform for building, deploying, and scaling models with Google Cloud.
+  - **Tags:** ☁️ hosted · 🧱 gpu-cloud · 🔌 api
+- [IBM watsonx](https://www.ibm.com/watsonx)
+  - Enterprise AI and data platform focused on governance, scale, and proprietary models.
+  - **Tags:** ☁️ hosted · 🧱 gpu-cloud · 🔌 api
 - [Runpod](https://www.runpod.io/)
   - GPU cloud for pods, serverless inference, and AI deployment.
   - **Tags:** ☁️ hosted · 🧱 gpu-cloud · 🔌 api
 - [GMI Cloud](https://gmicloud.ai/)
   - GPU-specialized cloud provider focused on NVIDIA hardware.
   - **Tags:** ☁️ hosted · 🧱 gpu-cloud
+- [NVIDIA DGX Cloud](https://www.nvidia.com/en-us/data-center/dgx-cloud/)
+  - Fully managed, multi-node AI training-as-a-service platform.
+  - **Tags:** ☁️ hosted · 🧱 gpu-cloud
 - [Vast.ai](https://vast.ai/)
   - GPU marketplace known for flexible and lower-cost rented compute.
   - **Tags:** ☁️ hosted · 🧱 gpu-cloud
 - [Lambda](https://lambda.ai/)
   - GPU cloud and infrastructure for training and inference workloads.
+  - **Tags:** ☁️ hosted · 🧱 gpu-cloud
+- [DigitalOcean Paperspace](https://www.paperspace.com/)
+  - Cloud GPU platform focused on ease of use for developers and ML teams.
   - **Tags:** ☁️ hosted · 🧱 gpu-cloud
 - [Genesis Cloud](https://www.genesiscloud.com/)
   - European GPU cloud provider for AI training and inference.
