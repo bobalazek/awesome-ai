@@ -185,6 +185,7 @@
 - [SpecStore](https://specstore.ai/) - A repository for storing and sharing AI specifications and prompts. · ☁️ hosted · 📐 specs · 📚 rag
 - [OpenSpec](https://openspec.dev/) - Spec-driven development tooling for AI coding and agent workflows. · 🔓 open-source · 💻 coding · 📐 specs
 - [Claude Super Prompt System](https://claude.ai/super-prompt) - Advanced prompt engineering framework for maximizing reasoning capabilities. · 📐 prompts · 📝 text · 🤖 agents
+- [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework and software development methodology for coding agents, centered on spec-first design, TDD, and subagent-driven execution. · 🔓 open-source · 🤖 agents · 💻 coding · 📐 specs · 📐 prompts
 
 ### 🧪 Evaluation and observability
 
@@ -261,13 +262,14 @@
 - [Stable Video Diffusion](https://stability.ai/stable-video) - Stability’s video model family based on Stable Diffusion; the hosted API was deprecated in July 2025 but self-hosting remains supported. · 🏠 self-hosted · 🎬 video
 - [Runway](https://runwayml.com/) - Creative lab focused on professional-grade video generation and VFX tools. · ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
 - [Leonardo AI](https://leonardo.ai/ai-video-generator) - Creator-focused visual platform with text-to-video, image-to-video, and controlled animation workflows. · ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video
-- [Kling AI](https://klingai.com/) - Media lab known for high-speed, physics-aware cinematic video generation. · ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
+- [Kling AI](https://kling.ai/) - Kuaishou’s (KwaiVGI) flagship video platform known for high-speed, physics-aware cinematic generation. · ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
 - [PixVerse](https://pixverse.ai/) - AI video platform and developer stack built around proprietary video models, editing tools, and real-time world-model research. · ☁️ hosted · 🔌 api · 🎬 video
 - [Seedance](https://seed.bytedance.com/en/seedance2_0) - ByteDance’s multimodal video generation model with text, image, audio, and video inputs plus strong motion control and cinematic output. · ☁️ hosted · 🔌 api · 🎬 video · 🎧 audio · 🧪 lab
 - [Wan](https://wan.video/) - Alibaba’s open video model family spanning text-to-video, image-to-video, and speech-to-video generation. · 🔓 open-source · 🪶 open-weights · 🎬 video · 🎧 audio
 - [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) - Tencent’s open video foundation model ecosystem for text-, image-, avatar-, and custom video generation. · 🔓 open-source · 🪶 open-weights · 🎬 video
 - [Hailuo AI](https://hailuoai.video/) - MiniMax’s video creation product family focused on cinematic motion, director controls, and agentic video workflows. · ☁️ hosted · 🔌 api · 🎬 video
 - [Luma AI](https://lumalabs.ai/) - Creative lab focused on fast video generation and 3D scene reconstruction. · ☁️ hosted · 🔌 api · 🎬 video · 🖼️ image · 🧪 lab
+- [Meta Movie Gen](https://ai.meta.com/research/movie-gen/) - Meta’s research family of media foundation models for video and audio generation; currently in limited partner access, not publicly released. · 🧪 research · 🎬 video · 🎧 audio · 🧪 lab
 - [ElevenLabs](https://elevenlabs.io/) - Leading lab for hyper-realistic voice, music, and multimodal audio systems. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🎼 music · 🧪 lab
 - [Suno](https://suno.com/) - Creative lab specializing in high-fidelity, full-track music generation. · ☁️ hosted · 🎼 music · 🎧 audio · 🧪 lab
 - [Udio](https://udio.com/) - Media lab focused on professional-grade music creation and remixing. · ☁️ hosted · 🎼 music · 🎧 audio · 🧪 lab
