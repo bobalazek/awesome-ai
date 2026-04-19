@@ -11,7 +11,7 @@
   - [💻 Coding agents, CLIs, and IDEs](#-coding-agents-clis-and-ides)
   - [🛠️ App builders and product tools](#️-app-builders-and-product-tools)
   - [👥 Team agents and collaborative tools](#-team-agents-and-collaborative-tools)
-  - [📅 Productivity and meeting assistants](#-productivity-and-meeting-assistants)
+  - [📅 Productivity, meeting, and voice assistants](#-productivity-meeting-and-voice-assistants)
   - [🧠 Personal knowledge and memory agents](#-personal-knowledge-and-memory-agents)
 - [⚙️ Orchestration and logic layer](#️-orchestration-and-logic-layer)
   - [🔀 Model routing and gateways](#-model-routing-and-gateways)
@@ -66,6 +66,8 @@
 - [Consensus](https://consensus.app/) - AI search engine that finds answers across peer-reviewed scientific papers. · ☁️ hosted · 🔎 search · 🧪 research
 - [Elicit](https://elicit.com/) - Automated research assistant that analyzes and summarizes literature at scale. · ☁️ hosted · 🔎 search · 🧪 research
 - [SciSpace](https://typeset.io/) - Platform for chatting with PDFs and understanding complex scientific literature. · ☁️ hosted · 🔎 search · 🧪 research
+- [Semantic Scholar](https://www.semanticscholar.org/) - Free AI-powered academic search engine and discovery platform for navigating papers, citations, and related scientific work. · ☁️ hosted · 🔎 search · 🧪 research
+- [Scite](https://scite.ai/) - Research platform that uses Smart Citations to show whether later papers support or contradict a claim. · ☁️ hosted · 🔎 search · 🧪 research
 - [Research Rabbit](https://www.researchrabbit.ai/) - Visual mapping tool for discovering related research papers and authors. · ☁️ hosted · 🔎 search · 🧪 research
 
 ### 🌐 Browser automation and web agents
@@ -121,12 +123,15 @@
 - [Kore.ai](https://kore.ai/) - Enterprise conversational AI platform for scaling thousands of agents. · ☁️ hosted · 🤖 agents · 🛠️ workflow
 - [Devin](https://cognition.ai/) - Autonomous software agent product aimed at longer-running engineering work. · ☁️ hosted · 💻 coding · 🤖 agents
 
-### 📅 Productivity and meeting assistants
+### 📅 Productivity, meeting, and voice assistants
 
 - [TimeOS](https://timeos.ai/) - AI productivity hub for automating meeting prep, note-taking, and cross-platform follow-ups. · ☁️ hosted · 🛠️ workflow · 🤖 agents
 - [Jamie](https://meetjamie.ai/) - Bot-free meeting assistant that records locally and generates professional summaries. · ☁️ hosted · 🏠 self-hosted · 🛠️ workflow
 - [Granola](https://granola.so/) - Meeting notepad that combines AI transcription with manual notes for structured documentation. · ☁️ hosted · 🛠️ workflow
 - [Otter.ai](https://otter.ai/) - Real-time transcription and collaborative note-taking platform for teams and students. · ☁️ hosted · 🛠️ workflow
+- [Aqua Voice](https://aquavoice.com/) - Voice dictation assistant that turns natural speech into polished text, prompts, and messages across apps with strong support for coding workflows. · 💻 local · 🛠️ workflow · 🗣️ voice · 💻 coding
+- [Wispr Flow](https://wisprflow.ai/) - Cross-app voice dictation tool that rewrites speech into clean, structured text for writing, messaging, and development work. · 💻 local · 🛠️ workflow · 🗣️ voice · 💻 coding
+- [Superwhisper](https://superwhisper.com/) - Voice-to-text assistant with offline support, app-aware modes, and fast dictation for coding, notes, and messages. · 💻 local · 🛠️ workflow · 🗣️ voice · 💻 coding
 
 ### 🧠 Personal knowledge and memory agents
 
@@ -228,10 +233,17 @@
 - [DeepInfra](https://deepinfra.com/) - Inference platform for language, embeddings, image, video, and speech. · ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎬 video · 🎧 audio
 - [Together AI](https://www.together.ai/) - AI-native cloud for serving, fine-tuning, and evaluating open models. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🖼️ image · 🎬 video · 🎧 audio
 - [Fireworks AI](https://fireworks.ai/) - Fast inference platform for open-source models and production AI workloads. · ☁️ hosted · 🔌 api · 🔓 open-source tooling · 📝 text · 🎧 audio
+- [Deepgram](https://deepgram.com/) - Voice AI platform for speech-to-text, text-to-speech, and real-time voice-agent orchestration through one API stack. · ☁️ hosted · 🏠 self-hosted · 🔌 api · 🎧 audio · 🗣️ voice
+- [AssemblyAI](https://www.assemblyai.com/) - Speech AI platform for streaming transcription, speech understanding, and voice-agent applications. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice
+- [Soniox](https://soniox.com/) - Speech AI platform for real-time multilingual transcription, translation, speaker detection, and voice-agent workloads. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice
+- [Avalon API](https://aquavoice.com/avalon-api) - Aqua’s OpenAI-compatible speech API tuned for developer dictation, coding terms, and human-computer interaction. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice
 - [Replicate](https://replicate.com/) - Execution platform covering a broad range of open and custom models. · ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎬 video · 🎧 audio
 - [fal](https://fal.ai/) - Media infrastructure for image, video, audio, and custom model serving. · ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video · 🎧 audio
+- [Cartesia](https://cartesia.ai/) - Low-latency voice AI platform focused on expressive streaming text-to-speech and conversational voice interfaces. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice
+- [PlayAI](https://docs.play.ai/) - Voice platform for text-to-speech, AI voice agents, and document-to-podcast generation. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🤖 agents
 - [Ollama](https://ollama.com/) - Local model runtime that now also provides access to cloud models through the same CLI, API, and desktop apps. · 💻 local · 🏠 self-hosted · ☁️ hosted · 🪶 open-weights · 🔌 api · 📝 text · 💻 coding
 - [Runware](https://runware.ai/) - API platform for image, video, audio, text, and 3D generation. · ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video · 🎧 audio · 📝 text
+- [WaveSpeedAI](https://wavespeed.ai/) - Unified inference platform for image, video, and speech models with a large model catalog and one developer-facing API. · ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video · 🎧 audio
 - [SiliconFlow](https://siliconflow.cn/) - Unified AI cloud for fast, cost-efficient deployment of open-source models. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🎬 video
 - [Gcore](https://gcore.com/) - Global edge network provider for low-latency enterprise AI workloads. · ☁️ hosted · 🔌 api · 🧱 infra
 - [NVIDIA NIM](https://www.nvidia.com/en-us/ai-data-science/generative-ai/nim/) - Optimized inference microservices for deploying generative AI on NVIDIA GPUs. · ☁️ hosted · 🔌 api · 🧱 infra
@@ -242,9 +254,19 @@
 ### 🎨 Media and creative labs
 
 - [Black Forest Labs](https://blackforestlabs.ai/) - Media lab best known for the FLUX family of high-fidelity image models. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🧪 lab
-- [Stability AI](https://stability.ai/) - Generative lab with a focus on open-weight image and media ecosystems. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🎬 video · 🧪 lab
+- [Midjourney](https://www.midjourney.com/) - Community-funded research lab building frontier image and video models with a strong creator ecosystem. · ☁️ hosted · 🖼️ image · 🎬 video · 🧪 lab
+- [Sora](https://openai.com/sora/) - OpenAI’s video generation app and model family; Sora 2 is current while Sora 1 is sunset in the US. · ☁️ hosted · 🎬 video · 🎧 audio
+- [Veo](https://deepmind.google/models/veo/) - Google DeepMind’s flagship video generation model family with native audio, cinematic controls, editing tools, and Flow integration. · ☁️ hosted · 🎬 video · 🎧 audio · 🧪 lab
+- [Stability AI](https://stability.ai/) - Generative lab behind the Stable Diffusion and Stable Video families, with a focus on open-weight image and media ecosystems. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🎬 video · 🧪 lab
+- [Stable Video Diffusion](https://stability.ai/stable-video) - Stability’s video model family based on Stable Diffusion; the hosted API was deprecated in July 2025 but self-hosting remains supported. · 🏠 self-hosted · 🎬 video
 - [Runway](https://runwayml.com/) - Creative lab focused on professional-grade video generation and VFX tools. · ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
+- [Leonardo AI](https://leonardo.ai/ai-video-generator) - Creator-focused visual platform with text-to-video, image-to-video, and controlled animation workflows. · ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video
 - [Kling AI](https://klingai.com/) - Media lab known for high-speed, physics-aware cinematic video generation. · ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
+- [PixVerse](https://pixverse.ai/) - AI video platform and developer stack built around proprietary video models, editing tools, and real-time world-model research. · ☁️ hosted · 🔌 api · 🎬 video
+- [Seedance](https://seed.bytedance.com/en/seedance2_0) - ByteDance’s multimodal video generation model with text, image, audio, and video inputs plus strong motion control and cinematic output. · ☁️ hosted · 🔌 api · 🎬 video · 🎧 audio · 🧪 lab
+- [Wan](https://wan.video/) - Alibaba’s open video model family spanning text-to-video, image-to-video, and speech-to-video generation. · 🔓 open-source · 🪶 open-weights · 🎬 video · 🎧 audio
+- [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) - Tencent’s open video foundation model ecosystem for text-, image-, avatar-, and custom video generation. · 🔓 open-source · 🪶 open-weights · 🎬 video
+- [Hailuo AI](https://hailuoai.video/) - MiniMax’s video creation product family focused on cinematic motion, director controls, and agentic video workflows. · ☁️ hosted · 🔌 api · 🎬 video
 - [Luma AI](https://lumalabs.ai/) - Creative lab focused on fast video generation and 3D scene reconstruction. · ☁️ hosted · 🔌 api · 🎬 video · 🖼️ image · 🧪 lab
 - [ElevenLabs](https://elevenlabs.io/) - Leading lab for hyper-realistic voice, music, and multimodal audio systems. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🎼 music · 🧪 lab
 - [Suno](https://suno.com/) - Creative lab specializing in high-fidelity, full-track music generation. · ☁️ hosted · 🎼 music · 🎧 audio · 🧪 lab
