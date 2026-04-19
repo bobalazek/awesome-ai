@@ -7,9 +7,12 @@
 - [🧩 Application layer](#-application-layer)
   - [💬 Chatbots and AI assistants](#-chatbots-and-ai-assistants)
   - [🔎 AI search and research](#-ai-search-and-research)
+  - [🌐 Browser automation and web agents](#-browser-automation-and-web-agents)
   - [💻 Coding agents and IDEs](#-coding-agents-and-ides)
   - [🛠️ App builders and product tools](#️-app-builders-and-product-tools)
   - [👥 Team agents and collaborative tools](#-team-agents-and-collaborative-tools)
+  - [📅 Productivity and meeting assistants](#-productivity-and-meeting-assistants)
+  - [🧠 Personal knowledge and memory agents](#-personal-knowledge-and-memory-agents)
 - [⚙️ Orchestration and logic layer](#️-orchestration-and-logic-layer)
   - [🔀 Model routing and gateways](#-model-routing-and-gateways)
   - [🤖 Agent frameworks](#-agent-frameworks)
@@ -91,6 +94,21 @@
 - [Research Rabbit](https://www.researchrabbit.ai/)
   - Visual mapping tool for discovering related research papers and authors.
   - **Tags:** ☁️ hosted · 🔎 search · 🧪 research
+
+### 🌐 Browser automation and web agents
+
+- [HARPA AI](https://harpa.ai/)
+  - Chrome extension that integrates AI models into any tab for web automation, scraping, and monitoring.
+  - **Tags:** ☁️ hosted · 🛠️ workflow · 🤖 agents
+- [Manus AI](https://manus.ai/)
+  - General-purpose action engine for executing complex multi-step tasks autonomously in the browser.
+  - **Tags:** ☁️ hosted · 🛠️ workflow · 🤖 agents
+- [ChatGPT Atlas](https://openai.com/atlas)
+  - OpenAI's browser-native agent for navigating the web and taking actions on the user's behalf.
+  - **Tags:** ☁️ hosted · 🛠️ workflow · 🤖 agents
+- [Perplexity Comet](https://perplexity.ai/comet)
+  - AI-native browser with built-in assistants for form-filling, research, and calendar management.
+  - **Tags:** ☁️ hosted · 🛠️ workflow · 🤖 agents · 🔎 search
 
 ### 💻 Coding agents and IDEs
 
@@ -188,6 +206,33 @@
   - Enterprise conversational AI platform for scaling thousands of agents.
   - **Tags:** ☁️ hosted · 🤖 agents · 🛠️ workflow
 
+### 📅 Productivity and meeting assistants
+
+- [TimeOS](https://timeos.ai/)
+  - AI productivity hub for automating meeting prep, note-taking, and cross-platform follow-ups.
+  - **Tags:** ☁️ hosted · 🛠️ workflow · 🤖 agents
+- [Jamie](https://meetjamie.ai/)
+  - Bot-free meeting assistant that records locally and generates professional, high-privacy summaries.
+  - **Tags:** ☁️ hosted · 🏠 self-hosted · 🛠️ workflow
+- [Granola](https://granola.so/)
+  - Meeting notepad that combines AI transcription with manual notes for structured documentation.
+  - **Tags:** ☁️ hosted · 🛠️ workflow
+- [Otter.ai](https://otter.ai/)
+  - Real-time transcription and collaborative note-taking platform for teams and students.
+  - **Tags:** ☁️ hosted · 🛠️ workflow
+
+### 🧠 Personal knowledge and memory agents
+
+- [Me.bot](https://me.bot/)
+  - Personal AI memory system that ingests notes, voice, and thoughts to act as a second brain.
+  - **Tags:** ☁️ hosted · 🧠 memory · 👥 companion
+- [Saner.ai](https://saner.ai/)
+  - ADHD-friendly workspace that unifies notes and tasks with proactive AI planning and recall.
+  - **Tags:** ☁️ hosted · 🧠 memory · 🛠️ workflow
+- [Kin AI](https://mykin.ai/)
+  - Personal agent focused on deep, persistent understanding to provide long-term coaching and insights.
+  - **Tags:** ☁️ hosted · 🧠 memory · 👥 companion
+
 ## ⚙️ Orchestration and logic layer
 
 ### 🔀 Model routing and gateways
@@ -243,7 +288,7 @@
 - [PydanticAI](https://ai.pydantic.dev/)
   - Python agent framework focused on validation, structure, and typed outputs.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents
-- [BMAD](https://github.com/bmad-code-org/BMAD-METHOD)
+- [BMAD](https://github.com/bobalazek/bmad)
   - Breakthrough Method for Agile AI-Driven Development—an open framework for multi-agent software engineering.
   - **Tags:** 🔓 open-source · 🧩 framework · 🤖 agents · 📐 prompts
 
@@ -291,6 +336,9 @@
 - [OpenSpec](https://openspec.dev/)
   - Spec-driven development tooling for AI coding and agent workflows.
   - **Tags:** 🔓 open-source · 💻 coding · 📐 specs
+- [HumanLayer](https://www.humanlayer.dev/)
+  - Approval and collaboration layer for teams using coding agents in real workflows.
+  - **Tags:** ☁️ hosted · 🤖 agents · 💻 coding · 👥 team
 - [Claude Super Prompt System](https://claude.ai/super-prompt)
   - Advanced prompt engineering framework for maximizing reasoning capabilities.
   - **Tags:** 📐 prompts · 📝 text · 🤖 agents
@@ -324,6 +372,9 @@
 - [Vibe Coding](https://vibecoding.com/)
   - A paradigm shift toward orchestrating, planning, and reviewing agents rather than manual typing.
   - **Tags:** 📝 methodology · 🤖 agents · 💻 coding
+- [PRD Breakdown & Execute](https://github.com/bobalazek/prd-breakdown)
+  - A structured workflow for breaking high-level requirements into atomic agent tasks.
+  - **Tags:** 📝 methodology · 🤖 agents · 🛠️ workflow
 
 ## 🧠 Machine learning and model layer
 
@@ -601,7 +652,7 @@
   - GPU cloud for pods, serverless inference, and AI deployment.
   - **Tags:** ☁️ hosted · 🧱 gpu-cloud · 🔌 api
 - [GMI Cloud](https://gmicloud.ai/)
-  - GPU-specialized cloud provider focused on NVIDIA hardware.
+  - GPU-specialized cloud provider focused on high-availability and NVIDIA hardware.
   - **Tags:** ☁️ hosted · 🧱 gpu-cloud
 - [NVIDIA DGX Cloud](https://www.nvidia.com/en-us/data-center/dgx-cloud/)
   - Fully managed, multi-node AI training-as-a-service platform.
