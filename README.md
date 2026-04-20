@@ -70,7 +70,7 @@
 - [Mojeek](https://www.mojeek.com/) - Independent no-tracking search engine focused on its own web index and user-controlled search experiences. · ☁️ hosted · 🔎 search · 📝 text
 - [Consensus](https://consensus.app/) - AI search engine that finds answers across peer-reviewed scientific papers. · ☁️ hosted · 🔎 search · 🧪 research
 - [Elicit](https://elicit.com/) - Automated research assistant that analyzes and summarizes literature at scale. · ☁️ hosted · 🔎 search · 🧪 research
-- [SciSpace](https://typeset.io/) - Platform for chatting with PDFs and understanding complex scientific literature. · ☁️ hosted · 🔎 search · 🧪 research
+- [SciSpace](https://scispace.com/) - Platform for chatting with PDFs and understanding complex scientific literature. · ☁️ hosted · 🔎 search · 🧪 research
 - [Semantic Scholar](https://www.semanticscholar.org/) - Free AI-powered academic search engine and discovery platform for navigating papers, citations, and related scientific work. · ☁️ hosted · 🔎 search · 🧪 research
 - [Scite](https://scite.ai/) - Research platform that uses Smart Citations to show whether later papers support or contradict a claim. · ☁️ hosted · 🔎 search · 🧪 research
 - [Research Rabbit](https://www.researchrabbit.ai/) - Visual mapping tool for discovering related research papers and authors. · ☁️ hosted · 🔎 search · 🧪 research
