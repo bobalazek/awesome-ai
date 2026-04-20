@@ -2,6 +2,8 @@
 
 > A curated list of AI tools, providers, platforms, agents, media systems, memory layers, and infrastructure.
 
+This list is organized from user-facing products down to models, data, and infrastructure. Some projects are intentionally cross-listed when they meaningfully span multiple layers, so readers can find them from the angle they care about.
+
 ## 📚 Contents
 
 - [🧩 Application layer](#-application-layer)
@@ -9,20 +11,24 @@
   - [🔎 Search and research](#-search-and-research)
   - [🌐 Browser automation and web agents](#-browser-automation-and-web-agents)
   - [💻 Coding agents, CLIs, and IDEs](#-coding-agents-clis-and-ides)
+  - [🧾 Code review and PR assistants](#-code-review-and-pr-assistants)
   - [🛠️ App builders and product tools](#️-app-builders-and-product-tools)
   - [👥 Team agents and collaborative tools](#-team-agents-and-collaborative-tools)
   - [📅 Productivity, meeting, and voice assistants](#-productivity-meeting-and-voice-assistants)
   - [🧠 Personal knowledge and memory agents](#-personal-knowledge-and-memory-agents)
 - [⚙️ Orchestration and logic layer](#️-orchestration-and-logic-layer)
   - [🔀 Model routing and gateways](#-model-routing-and-gateways)
+  - [🔌 Protocols and interoperability](#-protocols-and-interoperability)
   - [🤖 Agent frameworks](#-agent-frameworks)
   - [🧩 Workflow and automation](#-workflow-and-automation)
   - [📐 Prompt, spec, and context engineering](#-prompt-spec-and-context-engineering)
   - [🧪 Evaluation and observability](#-evaluation-and-observability)
+  - [🛡️ Safety, guardrails, and governance](#️-safety-guardrails-and-governance)
   - [🛤️ Agentic methodologies and conventions](#️-agentic-methodologies-and-conventions)
 - [🧠 Machine learning and model layer](#-machine-learning-and-model-layer)
   - [🧪 AI labs and model creators](#-ai-labs-and-model-creators)
   - [🔌 Model APIs and inference providers](#-model-apis-and-inference-providers)
+  - [🏋️ Fine-tuning and post-training](#️-fine-tuning-and-post-training)
   - [🎨 Media and creative labs](#-media-and-creative-labs)
   - [🧬 Embeddings and rerankers](#-embeddings-and-rerankers)
 - [🗃️ Data layer](#️-data-layer)
@@ -109,6 +115,16 @@
 - [Bloop AI](https://bloop.ai/) - AI-powered code search and navigation for understanding large and complex codebases. · ☁️ hosted · 💻 coding · 🔎 search
 - [Google Antigravity](https://antigravity.google) - Google’s agent-first IDE (fork of VS Code) with built-in browser agent and manager. · ☁️ hosted · 💻 coding · 🤖 agents
 
+### 🧾 Code review and PR assistants
+
+- [CodeRabbit](https://www.coderabbit.ai/) - AI code review assistant for pull requests with bug finding, review summaries, inline comments, and one-click fixes. · ☁️ hosted · 💻 coding · 🧾 code-review
+- [GitHub Copilot code review](https://docs.github.com/copilot/concepts/code-review) - GitHub-native PR review assistant that can be requested manually or configured to automatically review pull requests. · ☁️ hosted · 💻 coding · 🧾 code-review
+- [Qodo Merge](https://www.qodo.ai/products/qodo-merge/) - AI code review agent for pull requests, CI, and Git workflows with team rules and code-quality guardrails. · ☁️ hosted · 🔓 open-source · 💻 coding · 🧾 code-review
+- [Greptile](https://www.greptile.com/pull-request-review) - Codebase-aware PR reviewer with full-repository context, inline issue detection, and self-hosted deployment options. · ☁️ hosted · 🏠 self-hosted · 💻 coding · 🧾 code-review
+- [Graphite Agent](https://graphite.dev/features/ai-reviews/) - AI reviewer embedded in the PR workflow for instant reviews, contextual explanations, and one-click fixes. · ☁️ hosted · 💻 coding · 🧾 code-review
+- [PR-Agent](https://github.com/qodo-ai/pr-agent) - Open-source pull request review agent for automated analysis, feedback, summaries, and improvement suggestions. · 🔓 open-source · 💻 coding · 🧾 code-review
+- [What The Diff](https://whatthediff.ai/) - AI-powered pull request assistant focused on diff summaries, change explanations, and review support in GitHub or GitLab. · ☁️ hosted · 💻 coding · 🧾 code-review
+
 ### 🛠️ App builders and product tools
 
 - [v0](https://v0.app/) - Prompt-based product and UI builder for components, apps, and front-end flows. · ☁️ hosted · 💻 coding · 🤖 agents
@@ -155,6 +171,12 @@
 - [LiteLLM](https://litellm.ai/) - Universal I/O library to call any LLM provider using the OpenAI format. · 🔓 open-source · 🔌 api · 🧠 routing
 - [Portkey](https://portkey.ai/) - AI gateway and observability suite for managing prompts, caching, and retries. · ☁️ hosted · 🔌 api · 🧠 routing · 🧪 observability
 
+### 🔌 Protocols and interoperability
+
+- [Model Context Protocol (MCP)](https://docs.anthropic.com/en/docs/mcp) - Open protocol for connecting models and agents to tools, resources, and external context in a standardized way. · 🔓 open-source · 🔌 api · 🤖 agents · 🧩 protocol
+- [Agent2Agent Protocol (A2A)](https://a2aproject.github.io/A2A/latest/specification/) - Open standard for agent-to-agent communication, capability discovery, task handoffs, and asynchronous collaboration. · 🔓 open-source · 🤖 agents · 🧩 protocol
+- [AG-UI](https://docs.ag-ui.com/) - Open event-based protocol for connecting agent backends to user-facing applications with streaming state and interaction primitives. · 🔓 open-source · 🤖 agents · 🧩 protocol · 💬 chat
+
 ### 🤖 Agent frameworks
 
 - [LangChain](https://www.langchain.com/) - Framework for building LLM apps, tool-using systems, and agent workflows. · 🔓 open-source · 🧩 framework · 🤖 agents · 📚 rag
@@ -200,6 +222,12 @@
 - [AgentOps](https://agentops.ai/) - Specialized observability and monitoring for AI agents and multi-step reasoning. · ☁️ hosted · 🤖 agents · 🧪 observability
 - [Braintrust](https://braintrustdata.com/) - Enterprise stack for building AI products with a focus on automated evaluations. · ☁️ hosted · 🧪 observability · 🧪 research
 - [Tracer](https://github.com/Abil-Shrestha/tracer) - CLI-first issue tracker and context layer specifically designed for AI agents. · 🔓 open-source · 🤖 agents · 🧪 observability · 💻 coding
+
+### 🛡️ Safety, guardrails, and governance
+
+- [OpenAI Guardrails](https://openai.github.io/openai-guardrails-python/) - Safety framework for validating LLM inputs and outputs with configurable checks, evals, and production-ready enforcement. · 🔓 open-source · 🛡️ guardrails · 🤖 agents
+- [NVIDIA NeMo Guardrails](https://docs.nvidia.com/nemo-guardrails/index.html) - Open-source toolkit for programmable conversational guardrails, policy control, and safety flows around LLM applications. · 🔓 open-source · 🛡️ guardrails · 🤖 agents
+- [Guardrails AI](https://guardrailsai.com/docs/) - Reliability framework for structured output validation and runtime input or output risk checks across LLM apps. · 🔓 open-source · 🛡️ guardrails · 📝 text
 
 ### 🛤️ Agentic methodologies and conventions
 
@@ -256,6 +284,12 @@
 - [Groq](https://groq.com/) - Ultra-fast LPU inference platform for language models with sub-second latency. · ☁️ hosted · 🔌 api · 📝 text · 🧱 infra
 - [Cerebras](https://cerebras.ai/) - Wafer-scale AI inference cloud delivering industry-leading performance. · ☁️ hosted · 🔌 api · 🧱 infra · 📝 text
 - [SambaNova](https://sambanova.ai/) - Full-stack AI platform and cloud for fast inference of open models. · ☁️ hosted · 🔌 api · 🧱 infra · 📝 text
+
+### 🏋️ Fine-tuning and post-training
+
+- [TRL](https://huggingface.co/docs/trl/en/index) - Hugging Face library for supervised fine-tuning, preference optimization, reward modeling, and RL-style post-training. · 🔓 open-source · 🏋️ training · 📝 text
+- [PEFT](https://huggingface.co/docs/peft/index) - Parameter-efficient fine-tuning library for LoRA, AdaLoRA, IA3, and other adapter-based adaptation methods. · 🔓 open-source · 🏋️ training · 🪶 open-weights
+- [Unsloth](https://docs.unsloth.ai/) - Open-source stack for faster local fine-tuning and reinforcement learning with significantly lower VRAM requirements. · 🔓 open-source · 🏋️ training · 🪶 open-weights
 
 ### 🎨 Media and creative labs
 
