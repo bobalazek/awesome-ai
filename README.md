@@ -323,6 +323,7 @@
 - [Mojeek Web Search API](https://www.mojeek.com/services/search/web-search-api/) - Independent web search API exposing Mojeek’s own index for embedded search, AI apps, and custom ranking workflows. · ☁️ hosted · 🔌 api · 🔎 search
 - [SearXNG](https://docs.searxng.org/) - Free and self-hostable metasearch engine that aggregates results from many search services without tracking users. · 🔓 open-source · 🏠 self-hosted · 🔎 search
 - [YaCy](https://yacy.net/) - Open-source decentralized search engine you can run locally or for an organization. · 🔓 open-source · 🏠 self-hosted · 🔎 search
+- [LightRAG](https://github.com/HKUDS/LightRAG) - Open-source graph-enhanced RAG framework with optional multimodal document support via RAG-Anything. · 🔓 open-source · 🏠 self-hosted · 📚 rag · 🕸️ graph
 - [Firecrawl](https://www.firecrawl.dev/) - Web scraping service that returns LLM-ready markdown from any URL. · ☁️ hosted · 🔌 api · 📄 parsing
 - [Jina Reader](https://r.jina.ai/) - Simple API to convert any web URL into clean markdown for LLMs. · ☁️ hosted · 🔌 api · 📄 parsing · 🔎 search
 
@@ -330,6 +331,7 @@
 
 - [Scale AI](https://scale.com/) - Data platform for AI providing high-quality training data, RLHF, and evaluation. · ☁️ hosted · 🛠️ labeling · 🧪 research
 - [Labelbox](https://labelbox.com/) - Data-centric AI platform for labeling, orchestrating, and evaluating training data. · ☁️ hosted · 🛠️ labeling
+- [OmniDocBench](https://github.com/opendatalab/OmniDocBench) - Open benchmark for evaluating document parsing, OCR, tables, formulas, and layout detection on diverse real-world PDFs. · 🔓 open-source · 🧪 research · 📄 parsing
 - [Snorkel AI](https://snorkel.ai/) - Programmatic data labeling platform focused on high-scale enterprise AI development. · ☁️ hosted · 🛠️ labeling
 
 ### 🕸️ Knowledge graphs and structured context
@@ -338,7 +340,23 @@
 
 ### 📄 Document parsing and ingestion
 
+- [Amazon Textract](https://aws.amazon.com/textract/) - AWS document OCR service for extracting text, handwriting, tables, forms, and structured fields from scanned documents. · ☁️ hosted · 🔌 api · 📄 parsing
+- [Azure Document Intelligence](https://azure.microsoft.com/en-us/products/ai-foundry/tools/document-intelligence) - Enterprise document AI service for OCR, tables, key-value pairs, forms, and custom extraction workflows. · ☁️ hosted · 🔌 api · 📄 parsing
+- [Chunkr](https://docs.chunkr.ai/) - Document parsing API for PDFs and spreadsheets with OCR, tables, bounding boxes, and RAG-ready chunks. · ☁️ hosted · 🏠 self-hosted · 🔌 api · 📄 parsing · 📚 rag
+- [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) - Open-source OCR model for converting images and PDFs into markdown or plain text with vLLM support. · 🔓 open-source · 🏠 self-hosted · 📄 parsing
+- [Docling](https://www.docling.ai/) - Open-source document parser for PDFs, Office files, and images with OCR, tables, formulas, and reading order. · 🔓 open-source · 🏠 self-hosted · 📄 parsing · 📚 rag
+- [EasyOCR](https://github.com/JaidedAI/EasyOCR) - Lightweight OCR library with broad multilingual support and simple Python integration. · 🔓 open-source · 🏠 self-hosted · 📄 parsing
+- [Google Document AI](https://cloud.google.com/document-ai/docs/process-documents-ocr) - Google Cloud document OCR service with layout parsing, math OCR, and structured extraction for PDFs and forms. · ☁️ hosted · 🔌 api · 📄 parsing
+- [GLM-OCR](https://github.com/zai-org/GLM-OCR) - Open-source compact OCR model for complex document understanding with support for vLLM, SGLang, and Ollama deployment. · 🔓 open-source · 🏠 self-hosted · 📄 parsing
 - [LlamaParse](https://cloud.llamaindex.ai/parse) - Agentic PDF parser designed for complex tables and multi-column layouts. · ☁️ hosted · 🔌 api · 📄 parsing · 📚 rag
+- [Marker](https://github.com/datalab-to/marker) - Open-source PDF-to-Markdown and JSON converter with OCR and table extraction for document-heavy RAG pipelines. · 🔓 open-source · 🏠 self-hosted · 📄 parsing · 📚 rag
+- [MinerU](https://github.com/opendatalab/MinerU) - Document parsing engine for PDFs and Office docs with OCR, table reconstruction, formulas, and Markdown or JSON output. · 🔓 open-source · 🏠 self-hosted · 📄 parsing · 📚 rag
+- [Mistral OCR](https://docs.mistral.ai/capabilities/document_ai/basic_ocr/) - OCR API for extracting structured markdown, tables, and layout-aware content from PDFs and images. · ☁️ hosted · 🔌 api · 📄 parsing · 📚 rag
+- [NVIDIA Nemotron Parse](https://docs.api.nvidia.com/nim/reference/nvidia-nemotron-parse) - Document parsing model that extracts formatted text, bounding boxes, and semantic classes from document images. · ☁️ hosted · 🔌 api · 📄 parsing
+- [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) - CLI tool that adds an OCR text layer to scanned PDFs to make them searchable and easier to ingest. · 🔓 open-source · 🏠 self-hosted · 📄 parsing · 📚 rag
+- [olmOCR](https://github.com/allenai/olmocr) - Open-source toolkit for turning scanned PDFs and image-based documents into clean markdown or plain text for LLM pipelines. · 🔓 open-source · 🏠 self-hosted · 📄 parsing · 📚 rag
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - Open-source OCR and document parsing toolkit for PDFs and images with broad multilingual support. · 🔓 open-source · 🏠 self-hosted · 📄 parsing · 📚 rag
+- [Tesseract](https://github.com/tesseract-ocr/tesseract) - Widely used open-source OCR engine and library for turning scanned images into machine-readable text. · 🔓 open-source · 🏠 self-hosted · 📄 parsing
 - [Unstructured](https://unstructured.io/) - Enterprise-grade ETL for processing almost any file type for RAG. · 🔓 open-source · ☁️ hosted · 📄 parsing · 📚 rag
 
 ## 🧱 Infrastructure and compute layer
