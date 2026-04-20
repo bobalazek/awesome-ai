@@ -38,6 +38,11 @@
   - [💻 Local AI apps](#-local-ai-apps)
   - [🚀 Model serving and inference engines](#-model-serving-and-inference-engines)
   - [🌐 Self-hosted AI interfaces](#-self-hosted-ai-interfaces)
+- [📏 Benchmarks and evaluation suites](#-benchmarks-and-evaluation-suites)
+  - [💬 Assistant and agent benchmarks](#-assistant-and-agent-benchmarks)
+  - [🧠 Model and multimodal benchmarks](#-model-and-multimodal-benchmarks)
+  - [🗃️ Retrieval, document, and context benchmarks](#️-retrieval-document-and-context-benchmarks)
+  - [🧱 System and infrastructure benchmarks](#-system-and-infrastructure-benchmarks)
 
 ## 🧩 Application layer
 
@@ -331,7 +336,6 @@
 
 - [Scale AI](https://scale.com/) - Data platform for AI providing high-quality training data, RLHF, and evaluation. · ☁️ hosted · 🛠️ labeling · 🧪 research
 - [Labelbox](https://labelbox.com/) - Data-centric AI platform for labeling, orchestrating, and evaluating training data. · ☁️ hosted · 🛠️ labeling
-- [OmniDocBench](https://github.com/opendatalab/OmniDocBench) - Open benchmark for evaluating document parsing, OCR, tables, formulas, and layout detection on diverse real-world PDFs. · 🔓 open-source · 🧪 research · 📄 parsing
 - [Snorkel AI](https://snorkel.ai/) - Programmatic data labeling platform focused on high-scale enterprise AI development. · ☁️ hosted · 🛠️ labeling
 
 ### 🕸️ Knowledge graphs and structured context
@@ -400,3 +404,38 @@
 - [Open WebUI](https://github.com/open-webui/open-webui) - Self-hosted chat interface for Ollama and OpenAI backends. · 🔓 open-source · 🏠 self-hosted · 💬 chat
 - [AnythingLLM](https://anythingllm.com/) - All-in-one workspace for document chat, RAG, and remote backends. · ☁️ hosted · 🏠 self-hosted · 💬 chat · 📚 rag · 🧠 memory
 - [Onyx](https://onyx.app/) - Open-source AI workspace for internal chat, enterprise search, agents, and connected knowledge across self-hosted or cloud deployments. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💬 chat · 🔎 search · 📚 rag · 🤖 agents
+
+## 📏 Benchmarks and evaluation suites
+
+### 💬 Assistant and agent benchmarks
+
+- [MT-Bench](https://arxiv.org/abs/2306.05685) - Multi-turn benchmark for evaluating chat assistants on instruction following, reasoning, and conversational quality. · 🧪 benchmark · 💬 chat · 📝 text
+- [GAIA](https://arxiv.org/abs/2311.12983) - Real-world benchmark for general AI assistants that need reasoning, tool use, multimodality, and web browsing. · 🧪 benchmark · 💬 chat · 🤖 agents · 🔎 search
+- [WebArena](https://webarena.dev/) - Realistic benchmark for autonomous web agents acting across self-hostable websites. · 🧪 benchmark · 🤖 agents · 🛠️ workflow
+- [OSWorld](https://os-world.github.io/) - Computer-use benchmark for agents operating across desktop and web apps in real environments. · 🧪 benchmark · 🤖 agents · 🛠️ workflow
+- [SWE-bench Verified](https://www.swebench.com/verified.html) - Human-validated benchmark for repository-level software issue resolution by coding agents. · 🧪 benchmark · 💻 coding · 🤖 agents
+- [BFCL](https://gorilla.cs.berkeley.edu/leaderboard.html) - Berkeley Function Calling Leaderboard for measuring tool and function-calling accuracy in real-world settings. · 🧪 benchmark · 🤖 agents · 🧩 framework
+
+### 🧠 Model and multimodal benchmarks
+
+- [MMLU-Pro](https://arxiv.org/abs/2406.01574) - Harder multi-domain reasoning benchmark spanning 14 subjects with stronger distractors and cleaner questions. · 🧪 benchmark · 📝 text
+- [GPQA](https://arxiv.org/abs/2311.12022) - Graduate-level, Google-proof science QA benchmark for biology, physics, and chemistry. · 🧪 benchmark · 📝 text · 🧪 research
+- [MATH](https://arxiv.org/abs/2103.03874) - Competition-maths benchmark for step-by-step mathematical reasoning. · 🧪 benchmark · 📝 text
+- [MMMU](https://mmmu-benchmark.github.io/) - Expert-level multimodal reasoning benchmark across six disciplines and 30 subjects. · 🧪 benchmark · 🖼️ image · 📝 text
+- [GenEval](https://arxiv.org/abs/2310.11513) - Object-focused benchmark for compositional text-to-image generation. · 🧪 benchmark · 🖼️ image
+- [VBench](https://arxiv.org/abs/2311.17982) - Comprehensive benchmark suite for video generation quality, consistency, and prompt faithfulness. · 🧪 benchmark · 🎬 video
+- [SUPERB](https://arxiv.org/abs/2105.01051) - Broad speech benchmark spanning recognition, speaker, semantic, and paralinguistic tasks. · 🧪 benchmark · 🎧 audio · 🗣️ voice
+
+### 🗃️ Retrieval, document, and context benchmarks
+
+- [LongBench](https://github.com/THUDM/LongBench) - Long-context benchmark covering QA, summarisation, few-shot learning, synthetic tasks, and code completion. · 🧪 benchmark · 🧠 memory · 📚 rag
+- [MTEB](https://github.com/embeddings-benchmark/mteb) - Standard benchmark suite for text embeddings across retrieval, reranking, classification, clustering, and more. · 🧪 benchmark · 🧬 embeddings · 📚 rag
+- [BEIR](https://arxiv.org/abs/2104.08663) - Heterogeneous zero-shot retrieval benchmark widely used for IR and RAG evaluation. · 🧪 benchmark · 🔎 search · 📚 rag
+- [ANN-Benchmarks](https://ann-benchmarks.com/) - Standard benchmark for approximate nearest-neighbour search used to compare vector indexes and vector databases. · 🧪 benchmark · 🗂️ vector-db
+- [DocVQA](https://www.docvqa.org/) - Established benchmark for document visual question answering and layout-aware document understanding. · 🧪 benchmark · 📄 parsing · 🖼️ image
+- [OmniDocBench](https://github.com/opendatalab/OmniDocBench) - Open benchmark for evaluating document parsing, OCR, tables, formulas, and layout detection on diverse real-world PDFs. · 🔓 open-source · 🧪 benchmark · 📄 parsing
+
+### 🧱 System and infrastructure benchmarks
+
+- [MLPerf Inference](https://mlcommons.org/benchmarks/inference-datacenter/) - Industry benchmark for system throughput and latency on deployed inference workloads. · 🧪 benchmark · 🧱 infra
+- [MLPerf Training](https://mlcommons.org/benchmarks/training/) - Industry benchmark for time-to-train systems to a target quality threshold. · 🧪 benchmark · 🧱 infra
