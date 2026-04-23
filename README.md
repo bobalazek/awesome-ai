@@ -124,6 +124,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Graphite Agent](https://graphite.dev/features/ai-reviews/) - AI reviewer embedded in the PR workflow for instant reviews, contextual explanations, and one-click fixes. · ☁️ hosted · 💻 coding · 🧾 code-review
 - [PR-Agent](https://github.com/qodo-ai/pr-agent) - Open-source pull request review agent for automated analysis, feedback, summaries, and improvement suggestions. · 🔓 open-source · 💻 coding · 🧾 code-review
 - [What The Diff](https://whatthediff.ai/) - AI-powered pull request assistant focused on diff summaries, change explanations, and review support in GitHub or GitLab. · ☁️ hosted · 💻 coding · 🧾 code-review
+- [Kodus](https://github.com/kodustech/kodus-ai) - Open-source AI code reviewer for GitHub, GitLab, Bitbucket, and Azure Repos with bring-your-own-model support and self-hosted deployment. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💻 coding · 🧾 code-review
 
 ### 🛠️ App builders and product tools
 
@@ -187,7 +188,10 @@ This list is organized from user-facing products down to models, data, and infra
 - [Antigravity](https://google.com/antigravity) - Google’s platform for building agentic apps that interact natively with OS and Workspace. · ☁️ hosted · 🧩 framework · 🤖 agents
 - [browser-use](https://github.com/browser-use/browser-use) - Python library for making websites accessible to AI agents using Playwright and natural language. · 🔓 open-source · 🧩 framework · 🤖 agents
 - [browser-harness](https://github.com/browser-use/browser-harness) - Lightweight, self-healing browser automation harness built directly on CDP for AI agents. · 🔓 open-source · 🧩 framework · 🤖 agents
-- [OpenHarness](https://github.com/zhijiewong/openharness) - Open-source framework for building agent tool-calling loops and skill governance. · 🔓 open-source · 🧩 framework · 🤖 agents
+- [HyperFrames](https://github.com/heygen-com/hyperframes) - HeyGen's open-source HTML-to-video rendering framework with first-class support for AI agents creating programmatic video compositions. · 🔓 open-source · 🧩 framework · 🤖 agents · 🎬 video
+- [OpenHarness](https://github.com/HKUDS/OpenHarness) - Open-source agent framework from HKUDS providing tool-use, skills, memory, and multi-agent coordination primitives. · 🔓 open-source · 🧩 framework · 🤖 agents · 🧠 memory
+- [OpenSpace](https://github.com/HKUDS/OpenSpace) - Open-source self-evolving skill system with an MCP interface that lets agents learn, repair, and share skills to cut tokens and raise task success. · 🔓 open-source · 🧩 framework · 🤖 agents · 🧠 memory
+- [autoresearch](https://github.com/karpathy/autoresearch) - Andrej Karpathy's autonomous ML research harness where agents iteratively modify training code, run short experiments, and evaluate results. · 🔓 open-source · 🧩 framework · 🤖 agents · 🧪 research · 🏋️ training
 - [Griptape](https://www.griptape.ai/) - Python framework for building modular and security-first AI agents and pipelines. · 🔓 open-source · 🧩 framework · 🤖 agents
 - [Haystack](https://haystack.deepset.ai/) - Orchestration framework for building customizable RAG pipelines and agent systems. · 🔓 open-source · 🧩 framework · 🤖 agents
 - [PydanticAI](https://ai.pydantic.dev/) - Python agent framework focused on validation, structure, and typed outputs. · 🔓 open-source · 🧩 framework · 🤖 agents
@@ -213,6 +217,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [OpenSpec](https://openspec.dev/) - Spec-driven development tooling for AI coding and agent workflows. · 🔓 open-source · 💻 coding · 📐 specs
 - [Claude Super Prompt System](https://claude.ai/super-prompt) - Advanced prompt engineering framework for maximizing reasoning capabilities. · 📐 prompts · 📝 text · 🤖 agents
 - [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework and software development methodology for coding agents, centered on spec-first design, TDD, and subagent-driven execution. · 🔓 open-source · 🤖 agents · 💻 coding · 📐 specs · 📐 prompts
+- [Agency](https://github.com/msitarzewski/agency-agents) - Open-source pack of 144 specialized Claude Code sub-agent personas organized into 12 divisions spanning engineering, design, product, growth, and operations. · 🔓 open-source · 🤖 agents · 📐 prompts · 💻 coding
 
 ### 🧪 Evaluation and observability
 
@@ -281,6 +286,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [SiliconFlow](https://siliconflow.cn/) - Unified AI cloud for fast, cost-efficient deployment of open-source models. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🎬 video
 - [Gcore](https://gcore.com/) - Global edge network provider for low-latency enterprise AI workloads. · ☁️ hosted · 🔌 api · 🧱 infra
 - [NVIDIA NIM](https://www.nvidia.com/en-us/ai-data-science/generative-ai/nim/) - Optimized inference microservices for deploying generative AI on NVIDIA GPUs. · ☁️ hosted · 🔌 api · 🧱 infra
+- [NVIDIA Build](https://build.nvidia.com/) - Developer catalog and free playground API for NVIDIA-hosted NIM models across text, vision, speech, embeddings, and specialized domains, with self-host paths for production. · ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎧 audio · 🧬 embeddings
 - [Groq](https://groq.com/) - Ultra-fast LPU inference platform for language models with sub-second latency. · ☁️ hosted · 🔌 api · 📝 text · 🧱 infra
 - [Cerebras](https://cerebras.ai/) - Wafer-scale AI inference cloud delivering industry-leading performance. · ☁️ hosted · 🔌 api · 🧱 infra · 📝 text
 - [SambaNova](https://sambanova.ai/) - Full-stack AI platform and cloud for fast inference of open models. · ☁️ hosted · 🔌 api · 🧱 infra · 📝 text
@@ -375,6 +381,7 @@ This list is organized from user-facing products down to models, data, and infra
 ### 🕸️ Knowledge graphs and structured context
 
 - [Morph Data](https://morph-data.io/) - Platform for building AI data apps and connecting agents to databases. · ☁️ hosted · 🤖 agents · 🗃️ data
+- [Graphify](https://github.com/safishamsi/graphify) - Coding-assistant skill that turns folders of code, docs, images, and video into queryable knowledge graphs with AST parsing, semantic extraction, and local Whisper transcription. · 🔓 open-source · 💻 local · 🕸️ graph · 📚 rag · 💻 coding
 
 ### 📄 Document parsing and ingestion
 
