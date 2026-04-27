@@ -230,7 +230,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Chiron](https://github.com/EdwinjJ1/chiron-prompt) - Open-source repo-aware prompt enhancer for terminal coding agents, with Gemini CLI and Codex-style Ctrl+E prompt refinement workflows. · 🔓 open-source · 💻 local · 💻 coding · 📐 prompts
 - [Claude Super Prompt System](https://claude.ai/super-prompt) - Advanced prompt engineering framework for maximizing reasoning capabilities. · 📐 prompts · 📝 text · 🤖 agents
 - [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework and software development methodology for coding agents, centered on spec-first design, TDD, and subagent-driven execution. · 🔓 open-source · 🤖 agents · 💻 coding · 📐 specs · 📐 prompts
-- [Agency](https://github.com/msitarzewski/agency-agents) - Open-source pack of 144 specialized Claude Code sub-agent personas organized into 12 divisions spanning engineering, design, product, growth, and operations. · 🔓 open-source · 🤖 agents · 📐 prompts · 💻 coding
+- [Agency](https://github.com/msitarzewski/agency-agents) - Open-source pack of specialized agent personas and prompt workflows spanning engineering, design, product, growth, and operations, with installers for Claude Code and other coding assistants. · 🔓 open-source · 🤖 agents · 📐 prompts · 💻 coding
 
 ### 🧪 Evaluation and observability
 
