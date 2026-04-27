@@ -13,6 +13,7 @@ This list is organized from user-facing products down to models, data, and infra
   - [💻 Coding agents, CLIs, and IDEs](#-coding-agents-clis-and-ides)
   - [🧾 Code review and PR assistants](#-code-review-and-pr-assistants)
   - [🛠️ App builders and product tools](#️-app-builders-and-product-tools)
+  - [🌍 Localization and translation](#-localization-and-translation)
   - [👥 Team agents and collaborative tools](#-team-agents-and-collaborative-tools)
   - [📅 Productivity, meeting, and voice assistants](#-productivity-meeting-and-voice-assistants)
   - [🧠 Personal knowledge and memory agents](#-personal-knowledge-and-memory-agents)
@@ -133,6 +134,11 @@ This list is organized from user-facing products down to models, data, and infra
 - [Lovable](https://lovable.dev/) - Prompt-to-app builder for generating product prototypes and web applications. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Replit Agent](https://replit.com/ai) - Agentic browser development environment for building and deploying apps from prompts. · ☁️ hosted · 💻 coding · 🤖 agents
 
+### 🌍 Localization and translation
+
+- [General Translation](https://generaltranslation.com/) - Developer-focused AI localization platform with i18n libraries, contextual translation APIs, CI/CD translation deployment, and the Locadex repo agent. · ☁️ hosted · 🔌 api · 💻 coding · 🤖 agents · 🛠️ workflow · 🌍 localization
+- [Lingo.dev](https://lingo.dev/) - Localization engineering platform for stateful translation APIs, glossaries, quality gates, CLI workflows, GitHub Actions, and MCP-assisted localization. · 🔓 open-source · ☁️ hosted · 🔌 api · 💻 coding · 🛠️ workflow · 🌍 localization
+
 ### 👥 Team agents and collaborative tools
 
 - [OpenClaw](https://github.com/openclaw/openclaw) - Open-source personal AI agent platform with multi-channel inboxes, routing, tools, and collaborative workflow surfaces across chat platforms. · 🔓 open-source · 🤖 agents · 💬 chat
@@ -221,6 +227,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Spec Kit](https://github.github.com/spec-kit/) - Specification-driven development toolkit for AI-assisted software work. · 🔓 open-source · 💻 coding · 📐 specs
 - [SpecStore](https://specstore.ai/) - A repository for storing and sharing AI specifications and prompts. · ☁️ hosted · 📐 specs · 📚 rag
 - [OpenSpec](https://openspec.dev/) - Spec-driven development tooling for AI coding and agent workflows. · 🔓 open-source · 💻 coding · 📐 specs
+- [Chiron](https://github.com/EdwinjJ1/chiron-prompt) - Open-source repo-aware prompt enhancer for terminal coding agents, with Gemini CLI and Codex-style Ctrl+E prompt refinement workflows. · 🔓 open-source · 💻 local · 💻 coding · 📐 prompts
 - [Claude Super Prompt System](https://claude.ai/super-prompt) - Advanced prompt engineering framework for maximizing reasoning capabilities. · 📐 prompts · 📝 text · 🤖 agents
 - [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework and software development methodology for coding agents, centered on spec-first design, TDD, and subagent-driven execution. · 🔓 open-source · 🤖 agents · 💻 coding · 📐 specs · 📐 prompts
 - [Agency](https://github.com/msitarzewski/agency-agents) - Open-source pack of 144 specialized Claude Code sub-agent personas organized into 12 divisions spanning engineering, design, product, growth, and operations. · 🔓 open-source · 🤖 agents · 📐 prompts · 💻 coding
@@ -229,6 +236,7 @@ This list is organized from user-facing products down to models, data, and infra
 
 - [LangSmith](https://www.langchain.com/langsmith) - Unified platform for debugging, testing, and monitoring LLM applications. · ☁️ hosted · 🧪 observability · 🧩 framework
 - [Langfuse](https://langfuse.com/) - Open-source observability and analytics platform for tracing and evaluation. · 🔓 open-source · ☁️ hosted · 🧪 observability
+- [Latitude](https://latitude.so/) - Open-source agent observability and prompt-evaluation platform for turning production traces, feedback, and failures into fixes. · 🔓 open-source · ☁️ hosted · 🧪 observability · 📐 prompts · 🤖 agents
 - [Helicone](https://helicone.ai/) - Open-source observability platform for logging LLM requests, costs, and latency. · 🔓 open-source · ☁️ hosted · 🧪 observability
 - [AgentOps](https://agentops.ai/) - Specialized observability and monitoring for AI agents and multi-step reasoning. · ☁️ hosted · 🤖 agents · 🧪 observability
 - [Braintrust](https://braintrustdata.com/) - Enterprise stack for building AI products with a focus on automated evaluations. · ☁️ hosted · 🧪 observability · 🧪 research
