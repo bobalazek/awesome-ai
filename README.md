@@ -139,6 +139,8 @@ This list is organized from user-facing products down to models, data, and infra
 - [Harness AI](https://harness.io/products/ai-code-assistant) - Commercial platform and coding agent focused on automating the full software lifecycle. · ☁️ hosted · 💻 coding · 🤖 agents · 🛠️ workflow
 - [Hermes Agent](https://hermes-agent.ai/) - Long-lived agent system from Nous Research focused on memory and tool workflows. · ☁️ hosted · 🤖 agents · 🧠 memory
 - [Factory](https://factory.ai/) - Agent-native software development platform built around Factory Droid across IDEs, CLI, Slack, project backlogs, and CI/CD. · ☁️ hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
+- [Multica](https://multica.ai/) - Open-source project management platform for human and coding-agent teams, with task queues, reusable skills, runtime monitoring, and hosted or self-hosted deployment. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
+- [Paperclip](https://paperclip.inc/) - Management layer for AI-agent companies with org charts, budgets, governance, heartbeats, audit trails, and agent-agnostic runtimes. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
 - [HumanLayer](https://github.com/humanlayer/humanlayer) - Approval and collaboration layer for teams using coding agents in real production workflows. · 🔓 open-source · ☁️ hosted · 🤖 agents · 👥 team
 - [Vellum](https://www.vellum.ai/) - Enterprise agent control plane for building, testing, and monitoring AI agents. · ☁️ hosted · 🤖 agents · 🧪 observability
 - [Agentforce](https://www.salesforce.com/agentforce/) - Salesforce’s low-code platform for building autonomous business agents. · ☁️ hosted · 🤖 agents · 🛠️ workflow
@@ -202,6 +204,10 @@ This list is organized from user-facing products down to models, data, and infra
 - [n8n](https://n8n.io/) - Workflow automation platform with strong AI, API, and developer integration support. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 🛠️ workflow · 🤖 agents
 - [Vibe Kanban](https://vibekanban.com/) - Visual orchestration layer for managing parallel AI agents using Kanban boards and Git worktrees. · 🔓 open-source · 🤖 agents · 🛠️ workflow
 - [Schaltwerk](https://github.com/2mawi2/schaltwerk) - Desktop application for running and reviewing parallel terminal agents in a spec-driven flow. · 🔓 open-source · 🏠 self-hosted · 🤖 agents · 🛠️ workflow
+- [Emdash](https://www.emdash.sh/) - Open-source agentic development environment for running many CLI coding agents in parallel across isolated Git worktrees, issue trackers, and remote SSH projects. · 🔓 open-source · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
+- [Crystal](https://github.com/stravu/crystal) - Open-source desktop app for running multiple Claude Code and Codex sessions in parallel Git worktrees, testing approaches, and reviewing diffs before merge. · 🔓 open-source · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
+- [Superset](https://superset.sh/) - Source-available desktop code editor for orchestrating CLI coding agents in parallel with worktree isolation, built-in terminals, diff review, and IDE handoff. · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
+- [Agentastic](https://www.agentastic.dev/) - Mac-native IDE for running terminal-based coding agents in isolated worktrees with built-in diff review and merge workflows. · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
 - [Zapier Central](https://zapier.com/central) - Marketplace for automation agents that connect to thousands of business applications. · ☁️ hosted · 🛠️ workflow · 🤖 agents
 - [Apify Store](https://apify.com/store) - Marketplace for web scraping and automation agents that execute in the browser. · ☁️ hosted · 🛠️ workflow · 🤖 agents
 - [Twin.so](https://twin.so/) - Platform for building no-code browser agents that automate legacy UIs. · ☁️ hosted · 🛠️ workflow · 🤖 agents
