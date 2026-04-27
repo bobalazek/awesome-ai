@@ -133,6 +133,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Bolt](https://bolt.new/) - Browser-based AI builder for creating full-stack apps and quick prototypes. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Lovable](https://lovable.dev/) - Prompt-to-app builder for generating product prototypes and web applications. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Replit Agent](https://replit.com/ai) - Agentic browser development environment for building and deploying apps from prompts. · ☁️ hosted · 💻 coding · 🤖 agents
+- [LandingHero AI](https://www.landinghero.ai/) - AI landing page and website builder with a voice sales agent for explaining services and capturing leads. · ☁️ hosted · 🤖 agents · 🛠️ workflow
 
 ### 🌍 Localization and translation
 
@@ -151,6 +152,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Vellum](https://www.vellum.ai/) - Enterprise agent control plane for building, testing, and monitoring AI agents. · ☁️ hosted · 🤖 agents · 🧪 observability
 - [Agentforce](https://www.salesforce.com/agentforce/) - Salesforce’s low-code platform for building autonomous business agents. · ☁️ hosted · 🤖 agents · 🛠️ workflow
 - [Kore.ai](https://kore.ai/) - Enterprise conversational AI platform for scaling thousands of agents. · ☁️ hosted · 🤖 agents · 🛠️ workflow
+- [SubwAI](https://subw.ai/) - AI-native grant infrastructure for technology companies, covering funding discovery, application writing, submission, and compliance. · ☁️ hosted · 🛠️ workflow
 - [Devin](https://cognition.ai/) - Autonomous software agent product aimed at longer-running engineering work. · ☁️ hosted · 💻 coding · 🤖 agents
 
 ### 📅 Productivity, meeting, and voice assistants
@@ -231,6 +233,8 @@ This list is organized from user-facing products down to models, data, and infra
 - [Claude Super Prompt System](https://claude.ai/super-prompt) - Advanced prompt engineering framework for maximizing reasoning capabilities. · 📐 prompts · 📝 text · 🤖 agents
 - [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework and software development methodology for coding agents, centered on spec-first design, TDD, and subagent-driven execution. · 🔓 open-source · 🤖 agents · 💻 coding · 📐 specs · 📐 prompts
 - [Agency](https://github.com/msitarzewski/agency-agents) - Open-source pack of specialized agent personas and prompt workflows spanning engineering, design, product, growth, and operations, with installers for Claude Code and other coding assistants. · 🔓 open-source · 🤖 agents · 📐 prompts · 💻 coding
+- [UI UX Pro Max Skill](https://ui-ux-pro-max-skill.nextlevelbuilder.io/) - Design-intelligence skill for AI coding assistants that provides UI/UX patterns, design systems, palettes, fonts, and framework-specific guidance. · 🔓 open-source · 💻 coding · 📐 prompts · 🤖 agents
+- [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Collection of frontend design skills that steer AI coding agents toward polished layouts, motion, spacing, and visual quality. · 🔓 open-source · 💻 coding · 📐 prompts · 🤖 agents
 
 ### 🧪 Evaluation and observability
 
