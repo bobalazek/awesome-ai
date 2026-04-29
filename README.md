@@ -233,8 +233,13 @@ This list is organized from user-facing products down to models, data, and infra
 - [Claude Super Prompt System](https://claude.ai/super-prompt) - Advanced prompt engineering framework for maximizing reasoning capabilities. · 📐 prompts · 📝 text · 🤖 agents
 - [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework and software development methodology for coding agents, centered on spec-first design, TDD, and subagent-driven execution. · 🔓 open-source · 🤖 agents · 💻 coding · 📐 specs · 📐 prompts
 - [Agency](https://github.com/msitarzewski/agency-agents) - Open-source pack of specialized agent personas and prompt workflows spanning engineering, design, product, growth, and operations, with installers for Claude Code and other coding assistants. · 🔓 open-source · 🤖 agents · 📐 prompts · 💻 coding
+- [Impeccable](https://impeccable.style/) - Design-fluency skill for AI coding harnesses with design commands, project design context, anti-pattern detection, and optional CLI and Chrome extension workflows. · 🔓 open-source · 💻 coding · 📐 prompts · 🤖 agents
 - [UI UX Pro Max Skill](https://ui-ux-pro-max-skill.nextlevelbuilder.io/) - Design-intelligence skill for AI coding assistants that provides UI/UX patterns, design systems, palettes, fonts, and framework-specific guidance. · 🔓 open-source · 💻 coding · 📐 prompts · 🤖 agents
 - [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Collection of frontend design skills that steer AI coding agents toward polished layouts, motion, spacing, and visual quality. · 🔓 open-source · 💻 coding · 📐 prompts · 🤖 agents
+- [TypeUI](https://www.typeui.sh/) - Open-source CLI and registry of design skill files for applying consistent design systems across Claude Code, Codex, Cursor, Google Stitch, and other AI coding tools. · 🔓 open-source · 💻 coding · 📐 prompts · 🎨 design
+- [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) - Curated collection of DESIGN.md files inspired by popular brand design systems for guiding AI coding agents toward matching UI. · 🔓 open-source · 💻 coding · 📐 prompts · 🎨 design
+- [LandingHero Design Library](https://www.landinghero.ai/library) - Prompt-ready collection of UI components and themes for Claude Code, Cursor, Antigravity, and other AI coding tools. · ☁️ hosted · 💻 coding · 📐 prompts · 🎨 design
+- [Transitions.dev](https://transitions.dev/) - Copy-paste collection of essential web app transitions for animation, layout changes, menus, modals, panels, and page movement. · 💻 coding · 🎨 design
 
 ### 🧪 Evaluation and observability
 
@@ -324,6 +329,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Stability AI](https://stability.ai/) - Generative lab behind the Stable Diffusion and Stable Video families, with a focus on open-weight image and media ecosystems. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🎬 video · 🧪 lab
 - [Stable Video Diffusion](https://stability.ai/stable-video) - Stability’s video model family based on Stable Diffusion; the hosted API was deprecated in July 2025 but self-hosting remains supported. · 🏠 self-hosted · 🎬 video
 - [Runway](https://runwayml.com/) - Creative lab focused on professional-grade video generation and VFX tools. · ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
+- [ArtCraft](https://github.com/storytold/artcraft) - Open-source IDE for interactive AI image and video creation with compositing, scene blocking, character posing, and multi-provider generation workflows. · 🔓 open-source · 💻 local · 🖼️ image · 🎬 video · 🎨 design
 - [Leonardo AI](https://leonardo.ai/ai-video-generator) - Creator-focused visual platform with text-to-video, image-to-video, and controlled animation workflows. · ☁️ hosted · 🔌 api · 🖼️ image · 🎬 video
 - [Kling AI](https://kling.ai/) - Kuaishou’s (KwaiVGI) flagship video platform known for high-speed, physics-aware cinematic generation. · ☁️ hosted · 🔌 api · 🎬 video · 🧪 lab
 - [PixVerse](https://pixverse.ai/) - AI video platform and developer stack built around proprietary video models, editing tools, and real-time world-model research. · ☁️ hosted · 🔌 api · 🎬 video
@@ -483,6 +489,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [MATH](https://arxiv.org/abs/2103.03874) - Competition-maths benchmark for step-by-step mathematical reasoning. · 🧪 benchmark · 📝 text
 - [MMMU](https://mmmu-benchmark.github.io/) - Expert-level multimodal reasoning benchmark across six disciplines and 30 subjects. · 🧪 benchmark · 🖼️ image · 📝 text
 - [GenEval](https://arxiv.org/abs/2310.11513) - Object-focused benchmark for compositional text-to-image generation. · 🧪 benchmark · 🖼️ image
+- [Design Arena](https://www.designarena.ai/leaderboard) - Community-driven leaderboard for evaluating AI design capabilities through blind pairwise comparisons across code, image, video, audio, and UI categories. · 🧪 benchmark · 🖼️ image · 🎬 video · 🎧 audio · 💻 coding
 - [VBench](https://arxiv.org/abs/2311.17982) - Comprehensive benchmark suite for video generation quality, consistency, and prompt faithfulness. · 🧪 benchmark · 🎬 video
 - [SUPERB](https://arxiv.org/abs/2105.01051) - Broad speech benchmark spanning recognition, speaker, semantic, and paralinguistic tasks. · 🧪 benchmark · 🎧 audio · 🗣️ voice
 
