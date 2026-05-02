@@ -238,6 +238,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Taste Skill](https://github.com/Leonxlnx/taste-skill) - Collection of frontend design skills that steer AI coding agents toward polished layouts, motion, spacing, and visual quality. · 🔓 open-source · 💻 coding · 📐 prompts · 🤖 agents
 - [TypeUI](https://www.typeui.sh/) - Open-source CLI and registry of design skill files for applying consistent design systems across Claude Code, Codex, Cursor, Google Stitch, and other AI coding tools. · 🔓 open-source · 💻 coding · 📐 prompts · 🎨 design
 - [Awesome DESIGN.md](https://github.com/VoltAgent/awesome-design-md) - Curated collection of DESIGN.md files inspired by popular brand design systems for guiding AI coding agents toward matching UI. · 🔓 open-source · 💻 coding · 📐 prompts · 🎨 design
+- [Refero Styles](https://styles.refero.design/) - Searchable library of extracted design references with colors, typography, spacing, components, and DESIGN.md files for coding agents. · ☁️ hosted · 💻 coding · 📐 prompts · 🎨 design
 - [LandingHero Design Library](https://www.landinghero.ai/library) - Prompt-ready collection of UI components and themes for Claude Code, Cursor, Antigravity, and other AI coding tools. · ☁️ hosted · 💻 coding · 📐 prompts · 🎨 design
 - [Transitions.dev](https://transitions.dev/) - Copy-paste collection of essential web app transitions for animation, layout changes, menus, modals, panels, and page movement. · 💻 coding · 🎨 design
 
