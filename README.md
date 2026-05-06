@@ -13,6 +13,7 @@ This list is organized from user-facing products down to models, data, and infra
   - [💻 Coding agents, CLIs, and IDEs](#-coding-agents-clis-and-ides)
   - [🧾 Code review and PR assistants](#-code-review-and-pr-assistants)
   - [🛠️ App builders and product tools](#️-app-builders-and-product-tools)
+  - [🎨 Design systems and UI prototyping](#-design-systems-and-ui-prototyping)
   - [🌍 Localization and translation](#-localization-and-translation)
   - [👥 Team agents and collaborative tools](#-team-agents-and-collaborative-tools)
   - [📅 Productivity, meeting, and voice assistants](#-productivity-meeting-and-voice-assistants)
@@ -134,6 +135,11 @@ This list is organized from user-facing products down to models, data, and infra
 - [Lovable](https://lovable.dev/) - Prompt-to-app builder for generating product prototypes and web applications. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Replit Agent](https://replit.com/ai) - Agentic browser development environment for building and deploying apps from prompts. · ☁️ hosted · 💻 coding · 🤖 agents
 - [LandingHero AI](https://www.landinghero.ai/) - AI landing page and website builder with a voice sales agent for explaining services and capturing leads. · ☁️ hosted · 🤖 agents · 🛠️ workflow
+
+### 🎨 Design systems and UI prototyping
+
+- [getdesign.md](https://getdesign.md/) - Browsable collection of DESIGN.md files inspired by public websites, giving coding agents markdown-readable design tokens, components, layout rules, responsive behavior, and visual guardrails. · 🔓 open-source · 💻 coding · 🎨 design · 🤖 agents
+- [Superdesign](https://www.superdesign.dev/ide-extension) - Open-source design agent for IDEs that generates product mockups, UI components, and wireframes from prompts, with fork-and-iterate workflows for Cursor, Windsurf, Claude Code, and VS Code. · 🔓 open-source · 💻 coding · 🎨 design · 🤖 agents
 
 ### 🌍 Localization and translation
 
