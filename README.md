@@ -14,6 +14,7 @@ This list is organized from user-facing products down to models, data, and infra
   - [🧾 Code review and PR assistants](#-code-review-and-pr-assistants)
   - [🛠️ App builders and product tools](#️-app-builders-and-product-tools)
   - [🎨 Design systems and UI prototyping](#-design-systems-and-ui-prototyping)
+  - [📚 Developer documentation and knowledge platforms](#-developer-documentation-and-knowledge-platforms)
   - [🌍 Localization and translation](#-localization-and-translation)
   - [👥 Team agents and collaborative tools](#-team-agents-and-collaborative-tools)
   - [📅 Productivity, meeting, and voice assistants](#-productivity-meeting-and-voice-assistants)
@@ -140,6 +141,10 @@ This list is organized from user-facing products down to models, data, and infra
 
 - [getdesign.md](https://getdesign.md/) - Browsable collection of DESIGN.md files inspired by public websites, giving coding agents markdown-readable design tokens, components, layout rules, responsive behavior, and visual guardrails. · 🔓 open-source · 💻 coding · 🎨 design · 🤖 agents
 - [Superdesign](https://www.superdesign.dev/ide-extension) - Open-source design agent for IDEs that generates product mockups, UI components, and wireframes from prompts, with fork-and-iterate workflows for Cursor, Windsurf, Claude Code, and VS Code. · 🔓 open-source · 💻 coding · 🎨 design · 🤖 agents
+
+### 📚 Developer documentation and knowledge platforms
+
+- [Mintlify](https://www.mintlify.com/) - AI-native documentation and knowledge platform for developer docs, help centers, API references, AI assistants, llms.txt, MCP, and self-updating content workflows. · ☁️ hosted · 🤖 agents · 🛠️ workflow · 📚 docs
 
 ### 🌍 Localization and translation
 
