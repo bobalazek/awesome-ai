@@ -126,6 +126,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Greptile](https://www.greptile.com/pull-request-review) - Codebase-aware PR reviewer with full-repository context, inline issue detection, and self-hosted deployment options. · ☁️ hosted · 🏠 self-hosted · 💻 coding · 🧾 code-review
 - [Graphite Agent](https://graphite.dev/features/ai-reviews/) - AI reviewer embedded in the PR workflow for instant reviews, contextual explanations, and one-click fixes. · ☁️ hosted · 💻 coding · 🧾 code-review
 - [PR-Agent](https://github.com/qodo-ai/pr-agent) - Open-source pull request review agent for automated analysis, feedback, summaries, and improvement suggestions. · 🔓 open-source · 💻 coding · 🧾 code-review
+- [ClawSweeper](https://github.com/openclaw/clawsweeper) - Open-source GitHub maintenance bot that reviews issues and PRs, proposes safe closes, syncs durable comments, and can run guarded Codex repair/automerge loops. · 🔓 open-source · 🏠 self-hosted · 💻 coding · 🤖 agents · 🧾 code-review · 🛠️ workflow
 - [What The Diff](https://whatthediff.ai/) - AI-powered pull request assistant focused on diff summaries, change explanations, and review support in GitHub or GitLab. · ☁️ hosted · 💻 coding · 🧾 code-review
 - [Kodus](https://github.com/kodustech/kodus-ai) - Open-source AI code reviewer for GitHub, GitLab, Bitbucket, and Azure Repos with bring-your-own-model support and self-hosted deployment. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💻 coding · 🧾 code-review
 
@@ -145,6 +146,7 @@ This list is organized from user-facing products down to models, data, and infra
 ### 📚 Developer documentation and knowledge platforms
 
 - [Mintlify](https://www.mintlify.com/) - AI-native documentation and knowledge platform for developer docs, help centers, API references, AI assistants, llms.txt, MCP, and self-updating content workflows. · ☁️ hosted · 🤖 agents · 🛠️ workflow · 📚 docs
+- [Beever Atlas](https://github.com/Beever-AI/beever-atlas) - Open-source team knowledge base that turns Slack, Discord, Microsoft Teams, and Mattermost conversations into cited wiki pages, graph memory, QA, and MCP tools. · 🔓 open-source · 🏠 self-hosted · 🤖 agents · 📚 docs · 📚 rag · 🧠 memory · 🕸️ graph
 
 ### 🌍 Localization and translation
 
