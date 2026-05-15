@@ -159,11 +159,14 @@ This list is organized from user-facing products down to models, data, and infra
 - [Harness AI](https://harness.io/products/ai-code-assistant) - Commercial platform and coding agent focused on automating the full software lifecycle. · ☁️ hosted · 💻 coding · 🤖 agents · 🛠️ workflow
 - [Hermes Agent](https://hermes-agent.ai/) - Long-lived agent system from Nous Research focused on memory and tool workflows. · ☁️ hosted · 🤖 agents · 🧠 memory
 - [Factory](https://factory.ai/) - Agent-native software development platform built around Factory Droid across IDEs, CLI, Slack, project backlogs, and CI/CD. · ☁️ hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
+- [Dust](https://github.com/dust-tt/dust) - Open-source platform for building custom workplace AI agents grounded in company tools, knowledge, and workflows. · 🔓 open-source · ☁️ hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
 - [Multica](https://multica.ai/) - Open-source project management platform for human and coding-agent teams, with task queues, reusable skills, runtime monitoring, and hosted or self-hosted deployment. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
 - [Paperclip](https://paperclip.inc/) - Management layer for AI-agent companies with org charts, budgets, governance, heartbeats, audit trails, and agent-agnostic runtimes. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 💻 coding · 🤖 agents · 👥 team · 🛠️ workflow
 - [HumanLayer](https://github.com/humanlayer/humanlayer) - Approval and collaboration layer for teams using coding agents in real production workflows. · 🔓 open-source · ☁️ hosted · 🤖 agents · 👥 team
 - [Vellum](https://www.vellum.ai/) - Enterprise agent control plane for building, testing, and monitoring AI agents. · ☁️ hosted · 🤖 agents · 🧪 observability
 - [Agentforce](https://www.salesforce.com/agentforce/) - Salesforce’s low-code platform for building autonomous business agents. · ☁️ hosted · 🤖 agents · 🛠️ workflow
+- [Slackbot](https://slack.com/features/slackbot) - Slack's AI work agent for searching workspace context, orchestrating connected apps and agents, and helping teams act inside Slack. · ☁️ hosted · 🤖 agents · 👥 team · 💬 chat · 🛠️ workflow
+- [Relevance AI](https://relevanceai.com/) - Enterprise AI workforce platform for building, operating, and governing role-specific agents across GTM and operations workflows. · ☁️ hosted · 🤖 agents · 👥 team · 🛠️ workflow
 - [Kore.ai](https://kore.ai/) - Enterprise conversational AI platform for scaling thousands of agents. · ☁️ hosted · 🤖 agents · 🛠️ workflow
 - [SubwAI](https://subw.ai/) - AI-native grant infrastructure for technology companies, covering funding discovery, application writing, submission, and compliance. · ☁️ hosted · 🛠️ workflow
 - [Devin](https://cognition.ai/) - Autonomous software agent product aimed at longer-running engineering work. · ☁️ hosted · 💻 coding · 🤖 agents
@@ -171,6 +174,7 @@ This list is organized from user-facing products down to models, data, and infra
 ### 📅 Productivity, meeting, and voice assistants
 
 - [TimeOS](https://timeos.ai/) - AI productivity hub for automating meeting prep, note-taking, and cross-platform follow-ups. · ☁️ hosted · 🛠️ workflow · 🤖 agents
+- [Lindy](https://www.lindy.ai/) - Work assistant for inbox management, meeting prep, follow-ups, scheduling, and cross-app task execution. · ☁️ hosted · 🛠️ workflow · 🤖 agents
 - [Jamie](https://meetjamie.ai/) - Bot-free meeting assistant that records locally and generates professional summaries. · ☁️ hosted · 🏠 self-hosted · 🛠️ workflow
 - [Granola](https://granola.so/) - Meeting notepad that combines AI transcription with manual notes for structured documentation. · ☁️ hosted · 🛠️ workflow
 - [Otter.ai](https://otter.ai/) - Real-time transcription and collaborative note-taking platform for teams and students. · ☁️ hosted · 🛠️ workflow
@@ -181,7 +185,10 @@ This list is organized from user-facing products down to models, data, and infra
 ### 🧠 Personal knowledge and memory agents
 
 - [Me.bot](https://me.bot/) - Personal AI memory system that ingests notes, voice, and thoughts to act as a second brain. · ☁️ hosted · 🧠 memory · 👥 companion
+- [Khoj](https://github.com/khoj-ai/khoj) - Open-source self-hostable AI second brain for answers over personal docs and the web, custom agents, scheduled automations, and research workflows. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 🧠 memory · 📚 rag · 🤖 agents · 🔎 search
 - [Saner.ai](https://saner.ai/) - ADHD-friendly workspace that unifies notes and tasks with proactive AI planning and recall. · ☁️ hosted · 🧠 memory · 🛠️ workflow
+- [Vellum Assistant](https://github.com/vellum-ai/vellum-assistant) - Open-source personal assistant with structured memory, personality files, proactive check-ins, and macOS, Telegram, and Slack interfaces. · 🔓 open-source · 💻 local · 🧠 memory · 🤖 agents · 💬 chat
+- [Second Me](https://github.com/mindverse/Second-Me) - Open-source local AI-self system for training a personal memory model and sharing controlled context as a digital identity. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🤖 agents
 - [Kin AI](https://mykin.ai/) - Personal agent focused on deep, persistent understanding to provide long-term coaching and insights. · ☁️ hosted · 🧠 memory · 👥 companion
 
 ## ⚙️ Orchestration and logic layer
@@ -208,6 +215,13 @@ This list is organized from user-facing products down to models, data, and infra
 - [AutoGen](https://microsoft.github.io/autogen/) - Microsoft framework for multi-agent systems and tool-enabled AI workflows. · 🔓 open-source · 🧩 framework · 🤖 agents
 - [CrewAI](https://crewai.com/) - Framework for role-based multi-agent systems and collaborative AI execution. · 🔓 open-source · ☁️ hosted · 🧩 framework · 🤖 agents
 - [LangGraph](https://www.langchain.com/langgraph) - Framework for building robust, stateful multi-agent workflows with cycles. · 🔓 open-source · 🧩 framework · 🤖 agents
+- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) - Lightweight open-source SDK for multi-agent workflows with tools, handoffs, guardrails, sessions, tracing, realtime agents, and sandbox agents. · 🔓 open-source · 🧩 framework · 🤖 agents · 🛡️ guardrails
+- [Google Agent Development Kit](https://google.github.io/adk-docs/) - Open-source code-first framework for building, evaluating, and deploying agents across Python, TypeScript, Go, and Java. · 🔓 open-source · 🧩 framework · 🤖 agents
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Open framework for production-grade Python and .NET agents with graph workflows, observability, durability, and human-in-the-loop patterns. · 🔓 open-source · 🧩 framework · 🤖 agents · 🛠️ workflow
+- [Mastra](https://github.com/mastra-ai/mastra) - TypeScript framework for production AI apps and agents with workflows, memory, RAG, model routing, MCP servers, evals, and observability. · 🔓 open-source · 🧩 framework · 🤖 agents · 📚 rag · 🧪 observability
+- [Agno](https://github.com/agno-agi/agno) - Agent platform SDK and control plane for running agents as production services with storage, memory, tracing, scheduling, RBAC, and chat interfaces. · 🔓 open-source · 🧩 framework · 🤖 agents · 🛠️ workflow
+- [elizaOS](https://github.com/elizaOS/eliza) - Open-source framework for autonomous chat and social agents with plugins, multi-agent orchestration, RAG, and Discord, Telegram, and Farcaster connectors. · 🔓 open-source · 🧩 framework · 🤖 agents · 💬 chat · 📚 rag
+- [VoltAgent](https://github.com/VoltAgent/voltagent) - TypeScript agent engineering platform with memory, RAG, guardrails, MCP, voice, workflows, evals, and observability. · 🔓 open-source · ☁️ hosted · 🧩 framework · 🤖 agents · 🧪 observability
 - [Antigravity](https://google.com/antigravity) - Google’s platform for building agentic apps that interact natively with OS and Workspace. · ☁️ hosted · 🧩 framework · 🤖 agents
 - [browser-use](https://github.com/browser-use/browser-use) - Python library for making websites accessible to AI agents using Playwright and natural language. · 🔓 open-source · 🧩 framework · 🤖 agents
 - [browser-harness](https://github.com/browser-use/browser-harness) - Lightweight, self-healing browser automation harness built directly on CDP for AI agents. · 🔓 open-source · 🧩 framework · 🤖 agents
@@ -230,6 +244,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Superset](https://superset.sh/) - Source-available desktop code editor for orchestrating CLI coding agents in parallel with worktree isolation, built-in terminals, diff review, and IDE handoff. · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
 - [Agentastic](https://www.agentastic.dev/) - Mac-native IDE for running terminal-based coding agents in isolated worktrees with built-in diff review and merge workflows. · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
 - [Zapier Central](https://zapier.com/central) - Marketplace for automation agents that connect to thousands of business applications. · ☁️ hosted · 🛠️ workflow · 🤖 agents
+- [Gumloop](https://www.gumloop.com/) - AI-native automation builder for creating agents and workflows that use MCP tools, app integrations, and reusable flow steps. · ☁️ hosted · 🛠️ workflow · 🤖 agents · 🧩 protocol
 - [Apify Store](https://apify.com/store) - Marketplace for web scraping and automation agents that execute in the browser. · ☁️ hosted · 🛠️ workflow · 🤖 agents
 - [Twin.so](https://twin.so/) - Platform for building no-code browser agents that automate legacy UIs. · ☁️ hosted · 🛠️ workflow · 🤖 agents
 - [Dify](https://dify.ai/) - Platform for prompt apps, RAG workflows, internal tools, and agent systems. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 🛠️ workflow · 🤖 agents · 📚 rag
