@@ -101,7 +101,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [GitHub Copilot CLI](https://github.com/features/copilot/cli) - GitHub’s terminal coding agent with multi-model support, MCP integrations, autopilot mode, and parallel fleet workflows. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Windsurf](https://windsurf.com/) - AI coding product from the Codeium team focused on editor-native agentic development. · ☁️ hosted · 💻 coding · 🤖 agents
 - [Amp](https://sourcegraph.com/amp) - Sourcegraph's terminal-first coding agent optimized for search and enterprise scale. · ☁️ hosted · 💻 coding · 🤖 agents
-- [Goose](https://goose-docs.ai/) - Open-source local AI agent with desktop, CLI, and API interfaces for code, automation, MCP workflows, and subagents. · 🔓 open-source · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
+- [Goose](https://goose-docs.ai/) - Open-source AAIF local AI agent with desktop, CLI, and API interfaces, MCP extensions, ACP support, recipes, subagents, and sandboxed automation. · 🔓 open-source · 💻 local · 💻 coding · 🤖 agents · 🛠️ workflow
 - [Pi (shitty-coding-agent)](https://pi.dev) - Minimalist, extensible terminal-first coding agent created by Mario Zechner. · 🔓 open-source · 💻 coding · 🤖 agents
 - [Kilo Code](https://kilo.ai/) - Open-source coding agent (formerly Kilo Row) for editors, CLI workflows, and cloud execution. · 🔓 open-source · ☁️ hosted · 💻 coding · 🤖 agents
 - [Roo Code](https://roocode.com/) - Open-source AI dev team for VS Code and cloud delegation with role-specific modes, permission-gated tools, and broad model support. · 🔓 open-source · ☁️ hosted · 💻 coding · 🤖 agents
