@@ -443,6 +443,7 @@ This list is organized from user-facing products down to models, data, and infra
 ### 🕸️ Knowledge graphs and structured context
 
 - [Morph Data](https://morph-data.io/) - Platform for building AI data apps and connecting agents to databases. · ☁️ hosted · 🤖 agents · 🗃️ data
+- [Understand Anything](https://github.com/Lum1104/Understand-Anything) - Open-source coding-assistant plugin that turns codebases, docs, and knowledge bases into interactive knowledge graphs with search, explanations, guided tours, and impact analysis. · 🔓 open-source · 💻 local · 💻 coding · 🤖 agents · 🕸️ graph · 📚 rag
 - [Graphify](https://github.com/safishamsi/graphify) - Coding-assistant skill that turns folders of code, docs, images, and video into queryable knowledge graphs with AST parsing, semantic extraction, and local Whisper transcription. · 🔓 open-source · 💻 local · 🕸️ graph · 📚 rag · 💻 coding
 
 ### 📄 Document parsing and ingestion
