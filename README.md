@@ -431,6 +431,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [SearXNG](https://docs.searxng.org/) - Free and self-hostable metasearch engine that aggregates results from many search services without tracking users. · 🔓 open-source · 🏠 self-hosted · 🔎 search
 - [YaCy](https://yacy.net/) - Open-source decentralized search engine you can run locally or for an organization. · 🔓 open-source · 🏠 self-hosted · 🔎 search
 - [Semble](https://github.com/MinishLab/semble) - Open-source code search library, CLI, and MCP server that gives coding agents token-efficient semantic and lexical repository search. · 🔓 open-source · 💻 local · 💻 coding · 🔎 search · 📚 rag · 🤖 agents
+- [GitNexus](https://github.com/abhigyanpatwari/GitNexus) - Source-available code intelligence engine that indexes repositories into local knowledge graphs for MCP-powered agent context, hybrid search, impact analysis, code wiki generation, and web-based repo exploration. · 💻 local · 🏠 self-hosted · 💻 coding · 🔎 search · 📚 rag · 🕸️ graph · 🤖 agents
 - [LightRAG](https://github.com/HKUDS/LightRAG) - Open-source graph-enhanced RAG framework with optional multimodal document support via RAG-Anything. · 🔓 open-source · 🏠 self-hosted · 📚 rag · 🕸️ graph
 - [Firecrawl](https://www.firecrawl.dev/) - Web scraping service that returns LLM-ready markdown from any URL. · ☁️ hosted · 🔌 api · 📄 parsing
 - [Jina Reader](https://r.jina.ai/) - Simple API to convert any web URL into clean markdown for LLMs. · ☁️ hosted · 🔌 api · 📄 parsing · 🔎 search
