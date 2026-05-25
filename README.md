@@ -188,6 +188,7 @@ This list is organized from user-facing products down to models, data, and infra
 
 - [Me.bot](https://me.bot/) - Personal AI memory system that ingests notes, voice, and thoughts to act as a second brain. · ☁️ hosted · 🧠 memory · 👥 companion
 - [Khoj](https://github.com/khoj-ai/khoj) - Open-source self-hostable AI second brain for answers over personal docs and the web, custom agents, scheduled automations, and research workflows. · 🔓 open-source · ☁️ hosted · 🏠 self-hosted · 🧠 memory · 📚 rag · 🤖 agents · 🔎 search
+- [OpenHuman](https://github.com/tinyhumansai/openhuman) - Open-source personal AI assistant for local-first memory, voice, search, and connected workflows, with optional custom models and managed backend features. · 🔓 open-source · 💻 local · 🧠 memory · 🤖 agents · 💬 chat
 - [Saner.ai](https://saner.ai/) - ADHD-friendly workspace that unifies notes and tasks with proactive AI planning and recall. · ☁️ hosted · 🧠 memory · 🛠️ workflow
 - [Vellum Assistant](https://github.com/vellum-ai/vellum-assistant) - Open-source personal assistant with structured memory, personality files, proactive check-ins, and macOS, Telegram, and Slack interfaces. · 🔓 open-source · 💻 local · 🧠 memory · 🤖 agents · 💬 chat
 - [Second Me](https://github.com/mindverse/Second-Me) - Open-source local AI-self system for training a personal memory model and sharing controlled context as a digital identity. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🤖 agents
@@ -264,6 +265,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [OpenSpec](https://openspec.dev/) - Spec-driven development tooling for AI coding and agent workflows. · 🔓 open-source · 💻 coding · 📐 specs
 - [Chiron](https://github.com/EdwinjJ1/chiron-prompt) - Open-source repo-aware prompt enhancer for terminal coding agents, with Gemini CLI and Codex-style Ctrl+E prompt refinement workflows. · 🔓 open-source · 💻 local · 💻 coding · 📐 prompts
 - [Claude Super Prompt System](https://claude.ai/super-prompt) - Advanced prompt engineering framework for maximizing reasoning capabilities. · 📐 prompts · 📝 text · 🤖 agents
+- [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) - Claude Code skills pack for academic research workflows spanning paper discovery, literature review, writing, peer review, revision, and finalization. · 💻 coding · 📐 prompts · 🧪 research · 🤖 agents
 - [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework and software development methodology for coding agents, centered on spec-first design, TDD, and subagent-driven execution. · 🔓 open-source · 🤖 agents · 💻 coding · 📐 specs · 📐 prompts
 - [Agency](https://github.com/msitarzewski/agency-agents) - Open-source pack of specialized agent personas and prompt workflows spanning engineering, design, product, growth, and operations, with installers for Claude Code and other coding assistants. · 🔓 open-source · 🤖 agents · 📐 prompts · 💻 coding
 - [Impeccable](https://impeccable.style/) - Design-fluency skill for AI coding harnesses with design commands, project design context, anti-pattern detection, and optional CLI and Chrome extension workflows. · 🔓 open-source · 💻 coding · 📐 prompts · 🤖 agents
@@ -296,6 +298,7 @@ This list is organized from user-facing products down to models, data, and infra
 
 ### 🛤️ Agentic methodologies and conventions
 
+- [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - Open-source methodology for building production-grade LLM-powered software around owned prompts, explicit context, structured tool calls, control flow, and resumable execution. · 🔓 open-source · 📝 methodology · 🤖 agents · 🛠️ workflow
 - [Git Shit Done (GSD)](https://github.com/fredharper/git-shit-done) - A philosophy and set of GitOps conventions focused on high-velocity agentic engineering. · 📝 convention · 🤖 agents · 💻 coding
 - [Vibe Coding](https://vibecoding.com/) - A paradigm shift toward orchestrating, planning, and reviewing agents rather than manual typing. · 📝 methodology · 🤖 agents · 💻 coding
 - [Spec-Driven Development](https://github.github.com/spec-kit/) - Methodology where executable specifications drive agent work from intent, guardrails, and phased plans instead of one-shot prompts. · 📝 methodology · 🤖 agents · 💻 coding · 📐 specs
@@ -373,10 +376,12 @@ This list is organized from user-facing products down to models, data, and infra
 - [Seedance](https://seed.bytedance.com/en/seedance2_0) - ByteDance’s multimodal video generation model with text, image, audio, and video inputs plus strong motion control and cinematic output. · ☁️ hosted · 🔌 api · 🎬 video · 🎧 audio · 🧪 lab
 - [Wan](https://wan.video/) - Alibaba’s open video model family spanning text-to-video, image-to-video, and speech-to-video generation. · 🔓 open-source · 🪶 open-weights · 🎬 video · 🎧 audio
 - [HunyuanVideo](https://github.com/Tencent-Hunyuan/HunyuanVideo) - Tencent’s open video foundation model ecosystem for text-, image-, avatar-, and custom video generation. · 🔓 open-source · 🪶 open-weights · 🎬 video
+- [ViMax](https://github.com/HKUDS/ViMax) - Open-source agentic video generation system that decomposes production into director, screenwriter, producer, and generator roles. · 🔓 open-source · 🎬 video · 🤖 agents · 🧪 research
 - [Hailuo AI](https://hailuoai.video/) - MiniMax’s video creation product family focused on cinematic motion, director controls, and agentic video workflows. · ☁️ hosted · 🔌 api · 🎬 video
 - [Luma AI](https://lumalabs.ai/) - Creative lab focused on fast video generation and 3D scene reconstruction. · ☁️ hosted · 🔌 api · 🎬 video · 🖼️ image · 🧪 lab
 - [Meta Movie Gen](https://ai.meta.com/research/movie-gen/) - Meta’s research family of media foundation models for video and audio generation; currently in limited partner access, not publicly released. · 🧪 research · 🎬 video · 🎧 audio · 🧪 lab
 - [ElevenLabs](https://elevenlabs.io/) - Leading lab for hyper-realistic voice, music, and multimodal audio systems. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🎼 music · 🧪 lab
+- [Supertonic](https://github.com/supertone-inc/supertonic) - Open-source on-device multilingual text-to-speech engine running natively through ONNX across desktop, mobile, web, and server runtimes. · 🔓 open-source · 💻 local · 🎧 audio · 🗣️ voice
 - [Suno](https://suno.com/) - Creative lab specializing in high-fidelity, full-track music generation. · ☁️ hosted · 🎼 music · 🎧 audio · 🧪 lab
 - [Udio](https://udio.com/) - Media lab focused on professional-grade music creation and remixing. · ☁️ hosted · 🎼 music · 🎧 audio · 🧪 lab
 - [Hume AI](https://hume.ai/) - Specialized lab focused on empathetic voice agents and emotional intelligence. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🧪 lab
@@ -399,6 +404,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [OpenViking](https://github.com/volcengine/OpenViking) - Open-source context database that organizes agent memories, resources, and skills through a filesystem paradigm. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🤖 agents
 - [Basic Memory](https://github.com/basicmachines-co/basic-memory) - Open-source, local-first memory system for AI assistants using MCP. · 🔓 open-source · 💻 local · 🧠 memory
 - [OpenMemory](https://mem0.ai/openmemory) - Persistent MCP memory layer for coding agents with project-scoped recall and memory management. · 🔓 open-source · 💻 local · 🧠 memory · 🤖 agents
+- [agentmemory](https://github.com/rohitg00/agentmemory) - Open-source persistent memory server for coding agents with MCP tools, auto-hooks, hybrid search, knowledge graphs, benchmarks, and integrations for Claude Code, Codex, Cursor, Gemini CLI, and OpenCode. · 🔓 open-source · 💻 local · 🧠 memory · 🤖 agents · 📚 rag · 🕸️ graph
 - [Engram](https://github.com/Gentleman-Programming/engram) - A local-first, agent-agnostic memory layer for AI assistants that uses SQLite + FTS5 for high-performance persistent context, featuring a topic-based upsert system and a TUI for memory management. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🤖 agents
 - [QMD (Query Markup Documents)](https://github.com/tobi/qmd) - Local CLI search engine and MCP server for personal knowledge bases and notes. · 🔓 open-source · 💻 local · 🧠 memory · 🔎 search
 - [Memgraph](https://memgraph.com/) - In-memory graph database used for GraphRAG and multi-hop reasoning. · 🔓 open-source · 🏠 self-hosted · 🧠 memory · 🕸️ graph
@@ -431,6 +437,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [SearXNG](https://docs.searxng.org/) - Free and self-hostable metasearch engine that aggregates results from many search services without tracking users. · 🔓 open-source · 🏠 self-hosted · 🔎 search
 - [YaCy](https://yacy.net/) - Open-source decentralized search engine you can run locally or for an organization. · 🔓 open-source · 🏠 self-hosted · 🔎 search
 - [Semble](https://github.com/MinishLab/semble) - Open-source code search library, CLI, and MCP server that gives coding agents token-efficient semantic and lexical repository search. · 🔓 open-source · 💻 local · 💻 coding · 🔎 search · 📚 rag · 🤖 agents
+- [CodeGraph](https://github.com/colbymchenry/codegraph) - Open-source local code knowledge graph that pre-indexes symbol relationships, call graphs, and code structure for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent. · 🔓 open-source · 💻 local · 💻 coding · 🔎 search · 📚 rag · 🕸️ graph · 🤖 agents
 - [GitNexus](https://github.com/abhigyanpatwari/GitNexus) - Source-available code intelligence engine that indexes repositories into local knowledge graphs for MCP-powered agent context, hybrid search, impact analysis, code wiki generation, and web-based repo exploration. · 💻 local · 🏠 self-hosted · 💻 coding · 🔎 search · 📚 rag · 🕸️ graph · 🤖 agents
 - [LightRAG](https://github.com/HKUDS/LightRAG) - Open-source graph-enhanced RAG framework with optional multimodal document support via RAG-Anything. · 🔓 open-source · 🏠 self-hosted · 📚 rag · 🕸️ graph
 - [Firecrawl](https://www.firecrawl.dev/) - Web scraping service that returns LLM-ready markdown from any URL. · ☁️ hosted · 🔌 api · 📄 parsing
