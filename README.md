@@ -52,6 +52,12 @@ This list is organized from user-facing products down to models, data, and infra
   - [🧠 Model and multimodal benchmarks](#-model-and-multimodal-benchmarks)
   - [🗃️ Retrieval, document, and context benchmarks](#️-retrieval-document-and-context-benchmarks)
   - [🧱 System and infrastructure benchmarks](#-system-and-infrastructure-benchmarks)
+- [🧭 AI providers and model families](#-ai-providers-and-model-families)
+  - [🧮 Model marketplaces, routers, and inference catalogs](#-model-marketplaces-routers-and-inference-catalogs)
+  - [🧪 Frontier labs and hosted model families](#-frontier-labs-and-hosted-model-families)
+  - [🪶 Open-weight lineages, forks, and derivatives](#-open-weight-lineages-forks-and-derivatives)
+  - [🌏 Regional, sovereign, and enterprise model families](#-regional-sovereign-and-enterprise-model-families)
+  - [🎛️ Specialized model families](#️-specialized-model-families)
 
 ## 🧩 Application layer
 
@@ -553,3 +559,99 @@ This list is organized from user-facing products down to models, data, and infra
 
 - [MLPerf Inference](https://mlcommons.org/benchmarks/inference-datacenter/) - Industry benchmark for system throughput and latency on deployed inference workloads. · 🧪 benchmark · 🧱 infra
 - [MLPerf Training](https://mlcommons.org/benchmarks/training/) - Industry benchmark for time-to-train systems to a target quality threshold. · 🧪 benchmark · 🧱 infra
+
+## 🧭 AI providers and model families
+
+This section maps labs and providers to their main model families. It is intentionally family-oriented: fast-moving providers often rotate exact API aliases, while the family names are the stable way to understand the ecosystem.
+
+### 🧮 Model marketplaces, routers, and inference catalogs
+
+- [Fireworks AI model library](https://app.fireworks.ai/models) - Serverless, dedicated, and fine-tuning platform for open and open-weight models; current recommended families include Kimi K2/K2.6, DeepSeek V3.2, MiniMax M2.5, GLM 4.7/5, Qwen3, Qwen2.5-Coder, GPT-OSS, Llama 3.x, Qwen2.5-VL, Qwen3-VL, DeepSeek-OCR, FLUX, and Stable Diffusion. · ☁️ hosted · 🔌 api · 🪶 open-weights · 💻 coding · 🖼️ image · 📄 parsing
+- [Together AI serverless models](https://docs.together.ai/docs/serverless/models) - Broad open-model catalog for chat, image, vision, video, audio, embeddings, reranking, and moderation; notable hosted families include DeepSeek V4, Qwen3.x, Kimi K2.6, GLM-5/5.1, GPT-OSS, Llama, Gemma, MiniMax, Liquid, and many fine-tunable open models. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🏋️ training · 🧬 embeddings
+- [DeepInfra model catalog](https://deepinfra.com/) - Pay-as-you-go inference provider for 100+ models, including DeepSeek V4 Pro/Flash, NVIDIA Nemotron, Kimi K2.6, Xiaomi MiMo V2.5/V2.5-Pro, Qwen, Llama, Gemma, embeddings, speech, image, and vision-language models. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🖼️ image · 🎧 audio
+- [OpenRouter providers](https://openrouter.ai/providers/) - Multi-provider routing marketplace spanning official labs, clouds, inference specialists, and BYOK routes; covers OpenAI, Anthropic, Google, xAI, DeepSeek, Qwen/Alibaba, Moonshot, MiniMax, Z.ai, Mistral, Groq, Together, Fireworks, Cerebras, SambaNova, DeepInfra, Bedrock, Vertex, Azure, SiliconFlow, Chutes, Cloudflare, and many smaller providers. · ☁️ hosted · 🔌 api · 🧠 routing · 🪶 open-weights
+- [GroqCloud models](https://console.groq.com/docs/models) - LPU inference catalog focused on high-speed open models and Groq Compound systems; common families include GPT-OSS, Llama, Qwen, Llama Guard/Prompt Guard, Orpheus voice, Whisper-style STT, and selected preview models. · ☁️ hosted · 🔌 api · 🧱 infra · 📝 text · 🎧 audio
+- [Cerebras Inference model catalog](https://inference-docs.cerebras.ai/models/overview) - Wafer-scale inference endpoints for ultra-fast open-model serving; public and preview catalog includes GPT-OSS, Llama, Qwen3, and GLM, with additional families available through dedicated endpoints. · ☁️ hosted · 🔌 api · 🧱 infra · 🪶 open-weights
+- [SambaNova model catalog](https://docs.sambanova.ai/) - SambaCloud inference for open models such as Llama, DeepSeek, Qwen/QwQ, and multimodal Llama releases, with a model-list API for environment-specific availability. · ☁️ hosted · 🔌 api · 🧱 infra · 🪶 open-weights
+- [SiliconFlow model marketplace](https://siliconflow.cn/) - China-focused inference cloud and model marketplace for Qwen, DeepSeek, GLM, Kimi, Baichuan, InternLM, MiniCPM, embedding/reranker, video, and speech models. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🎬 video
+- [Chutes model API](https://chutes.ai/) - Serverless open-model inference network commonly used for fast access to recent open releases, including Qwen, DeepSeek, Llama, GLM, Kimi, MiniMax, image/video, and community model variants. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🧱 infra
+- [Novita AI model API](https://novita.ai/) - Inference platform for text, image, video, and audio generation with large open-model coverage, including Llama, Qwen, DeepSeek, Flux, Stable Diffusion, and media-generation families. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🎬 video
+- [Baseten model library](https://www.baseten.co/library/) - Managed deployment platform for open and custom models, often used for dedicated production serving of Llama, Qwen, DeepSeek, Whisper, Stable Diffusion/FLUX, embeddings, rerankers, and fine-tuned private models. · ☁️ hosted · 🔌 api · 🧱 infra · 🪶 open-weights
+- [Cursor models](https://docs.cursor.com/models/) - Coding IDE model access surface rather than a standalone model lab; supports frontier coding models from OpenAI, Anthropic, Google, DeepSeek, xAI, and Cursor’s own Auto/Composer-style routing, with Max Mode for larger context on selected models. · ☁️ hosted · 💻 coding · 🤖 agents · 🧠 routing
+- [DeepSeek API models](https://api-docs.deepseek.com/api/list-models) - Official DeepSeek endpoint and model-list API for DeepSeek-owned chat/reasoning models; use this when you want first-party DeepSeek rather than third-party hosted DeepSeek weights. · ☁️ hosted · 🔌 api · 📝 text · 💻 coding
+
+### 🧪 Frontier labs and hosted model families
+
+- [OpenAI models](https://developers.openai.com/api/docs/models) - GPT-5.x frontier models for reasoning, coding, agents, and multimodal work; specialized families include GPT Codex, GPT Image, GPT Realtime, GPT Audio, Sora, embeddings, moderation, computer-use, and the open-weight gpt-oss line. · ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🖼️ image · 🎧 audio · 🎬 video · 🪶 open-weights
+- [Anthropic Claude models](https://platform.claude.com/docs/en/about-claude/models/overview) - Claude Opus, Sonnet, and Haiku families for high-reasoning, coding, agentic, long-context, and vision-enabled text workflows, with availability across Anthropic API, Bedrock, Vertex AI, and Microsoft Foundry. · ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🖼️ image · 🤖 agents
+- [Google Gemini models](https://ai.google.dev/gemini-api/docs/models) - Gemini frontier family spanning Pro, Flash, Flash-Lite, Live, TTS, Deep Research, computer-use, image generation/editing, video generation, music, embeddings, and long-context multimodal understanding. · ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🖼️ image · 🎧 audio · 🎬 video · 🎼 music
+- [Google Gemma](https://ai.google.dev/gemma/docs) - Open-weight family derived from Gemini research, including Gemma 3, Gemma 3n, CodeGemma, PaliGemma, ShieldGemma, MedGemma, EmbeddingGemma, FunctionGemma, T5Gemma, VaultGemma, and interpretability tooling such as Gemma Scope. · 🪶 open-weights · 💻 local · 📝 text · 🖼️ image · 🎧 audio · 🧬 embeddings
+- [xAI Grok models](https://docs.x.ai/developers/models) - Grok chat, Grok Build for coding, Grok Imagine for image/video, and Grok Voice for real-time speech workflows with optional web and X search grounding. · ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🖼️ image · 🎧 audio · 🎬 video
+- [Mistral AI models](https://docs.mistral.ai/models/overview) - Mistral Large, Medium, Small, Magistral, Ministral, Pixtral, Codestral, Devstral, Voxtral, OCR, embeddings, and moderation families across open-weight and premier hosted deployments. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 💻 coding · 🖼️ image · 🎧 audio
+- [Meta Llama](https://ai.meta.com/llama/get-started/) - Open-weight Llama family including Llama 4 Scout and Maverick, Llama 3.x, Code Llama, Llama Guard, and Prompt Guard; one of the largest downstream fine-tuning bases. · 🪶 open-weights · 💻 local · 📝 text · 🖼️ image · 🛡️ guardrails
+- [DeepSeek](https://www.deepseek.com/en/transparency/) - DeepSeek-V4, V3.x, R1, R1-Zero, and R1 distillation families focused on open-weight reasoning, coding, and agentic tool use. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 💻 coding
+- [Alibaba Qwen](https://qwen.ai/) - Qwen family covering Qwen3, Qwen3-Coder, Qwen3-VL, Qwen3-Omni, Qwen-Image, Qwen TTS/ASR, QwQ reasoning, embeddings, rerankers, and DashScope-hosted proprietary variants. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 💻 coding · 🖼️ image · 🎧 audio · 🎬 video
+- [Xiaomi MiMo](https://huggingface.co/XiaomiMiMo) - MiMo model family spanning MiMo-7B reasoning, MiMo-VL, MiMo-Audio, MiMo-Embodied, MiMo-V2-Flash, MiMo-V2.5, and MiMo-V2.5-Pro for long-context, multimodal, and agentic workflows. · 🪶 open-weights · 💻 local · 📝 text · 💻 coding · 🖼️ image · 🎧 audio · 🎬 video
+- [Z.ai GLM](https://docs.z.ai/guides/llm/glm-4.5) - GLM family from Zhipu/Z.ai, including GLM-4.5, GLM-4.5-Air, X, AirX, and Flash variants for agentic reasoning, coding, tool use, and long-context workflows. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 💻 coding · 🤖 agents
+- [Moonshot AI Kimi](https://www.moonshot.ai/) - Kimi family for long-context chat, reasoning, coding, audio, vision-language, and agentic workflows, including Kimi K-series and Moonlight releases. · ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🖼️ image · 🎧 audio
+- [MiniMax models](https://platform.minimax.io/docs/release-notes/models) - MiniMax M-series language models plus Hailuo video, Speech, Music, and image models for agents, coding, voice, video, and entertainment products. · ☁️ hosted · 🔌 api · 📝 text · 💻 coding · 🎧 audio · 🎬 video · 🎼 music
+- [ByteDance Seed](https://seed.bytedance.com/en/models) - Seed model family behind Doubao, including Seed language models, Seedance video, Seedream image, Seed-ASR, and multimodal agent releases. · ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎧 audio · 🎬 video
+- [Amazon Nova](https://docs.aws.amazon.com/nova/) - Amazon model family on Bedrock, including Nova Premier, Pro, Lite, Micro, Sonic, Canvas, Reel, Nova multimodal embeddings, and Nova 2.x upgrades. · ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎧 audio · 🎬 video · 🧬 embeddings
+- [Cohere models](https://docs.cohere.com/v2/docs/models) - Enterprise language, retrieval, and search family including Command A, Command R/R+, Command Vision, Command Translate, Embed, and Rerank. · ☁️ hosted · 🔌 api · 📝 text · 🧬 embeddings · 📚 rag
+- [AI21 Jamba](https://docs.ai21.com/docs/jamba-foundation-models) - Jamba family built around hybrid Mamba-Transformer architecture, including Jamba Large, Jamba2 Mini, and smaller enterprise-oriented variants. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text
+- [Microsoft Phi](https://azure.microsoft.com/en-us/products/phi/) - Small language and multimodal model family including Phi-4, Phi-4-mini, Phi-4-multimodal, and reasoning-focused Phi variants available through Foundry and Hugging Face. · ☁️ hosted · 🪶 open-weights · 💻 local · 📝 text · 🖼️ image · 🎧 audio
+- [NVIDIA Nemotron](https://build.nvidia.com/) - NVIDIA open and NIM-served model family for agentic reasoning, chat, reward modeling, content safety, voice, OCR/document parsing, and GPU-optimized deployment. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🧱 infra · 🛡️ guardrails
+- [IBM Granite](https://research.ibm.com/blog/granite-4-1-ai-foundation-models) - Enterprise open model family for language, code, vision, speech, embeddings, time series, and Granite Guardian safety models on watsonx and open platforms. · ☁️ hosted · 🪶 open-weights · 📝 text · 💻 coding · 🖼️ image · 🎧 audio · 🛡️ guardrails
+
+### 🪶 Open-weight lineages, forks, and derivatives
+
+- [Qwen3](https://github.com/QwenLM/Qwen3) - Base open-weight Qwen lineage with dense and MoE models; Qwen3 builds on Qwen2.5, QwQ, Qwen2.5-Coder, and Qwen2.5-Math training recipes for hybrid thinking and agentic tool use. · 🪶 open-weights · 📝 text · 💻 coding · 🤖 agents
+- [Qwen3-Coder](https://qwenlm.github.io/blog/qwen3-coder/) - Qwen coding lineage optimized for repository-scale coding, browser-use, tool-use, and agentic workflows; Qwen Code is a fork/adaptation of Gemini CLI for Qwen-Coder models. · 🪶 open-weights · 💻 coding · 🤖 agents
+- [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) - Qwen vision-language lineage with dense and MoE Instruct/Thinking variants for OCR, visual reasoning, GUI agents, video understanding, and long-context multimodal work. · 🪶 open-weights · 🖼️ image · 🎬 video · 🤖 agents
+- [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) - Reasoning lineage where the full R1 model is DeepSeek-native, while the R1-Distill checkpoints are smaller Qwen/Llama-based models fine-tuned from R1-generated reasoning data. · 🪶 open-weights · 📝 text · 💻 coding
+- [DeepSeek-R1-Distill-Qwen](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-32B) - Qwen-descended DeepSeek distillation branch based on Qwen2.5/Qwen2.5-Math checkpoints, commonly seen in 1.5B, 7B, 14B, and 32B sizes. · 🪶 open-weights · 📝 text · 💻 coding
+- [DeepSeek-R1-Distill-Llama](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B) - Llama-descended DeepSeek distillation branch based on Llama checkpoints, typically used when people want R1-style reasoning behavior on Llama-compatible runtimes. · 🪶 open-weights · 📝 text · 💻 coding
+- [Llama derivatives](https://huggingface.co/meta-llama/models) - Broad ecosystem of Llama-based fine-tunes, quantizations, instruction models, coding variants, safety models, and domain-specific forks; descendants often inherit Llama architecture but differ heavily in data, alignment, and license. · 🪶 open-weights · 💻 local · 📝 text
+- [Mistral derivatives](https://huggingface.co/mistralai) - Mistral 7B, Mixtral, Mistral Nemo, Codestral, Devstral, and Pixtral have large downstream fine-tune ecosystems, especially for local chat, coding, and low-latency agents. · 🪶 open-weights · 💻 local · 📝 text · 💻 coding
+- [Gemma derivatives](https://ai.google.dev/gemma/docs/get_started) - Gemma ecosystem includes official task branches such as PaliGemma, ShieldGemma, MedGemma, T5Gemma, EmbeddingGemma, and many community fine-tunes hosted on Kaggle and Hugging Face. · 🪶 open-weights · 💻 local · 📝 text · 🖼️ image
+- [MiMo derivatives](https://huggingface.co/XiaomiMiMo/MiMo-V2.5) - Xiaomi MiMo releases expose base, instruct, RL, audio, VL, embodied, Flash, and V2.5 branches; community variants are mostly quantizations and deployment ports rather than separate base-model forks. · 🪶 open-weights · 💻 local · 📝 text · 🖼️ image · 🎧 audio
+- [Nous Hermes](https://huggingface.co/NousResearch) - Popular family of open instruction fine-tunes historically built on Llama, Mistral, Mixtral, and Qwen backbones for general chat, tool use, and agent workflows. · 🪶 open-weights · 💻 local · 📝 text · 🤖 agents
+- [Dolphin](https://huggingface.co/cognitivecomputations) - Community instruction and coding fine-tune family that commonly targets Llama, Mistral, Mixtral, and Qwen base models. · 🪶 open-weights · 💻 local · 📝 text · 💻 coding
+- [Unsloth model zoo](https://huggingface.co/unsloth) - Fine-tuned and quantized variants of Qwen, Llama, Gemma, Mistral, DeepSeek, and other open models optimized for local training and inference. · 🪶 open-weights · 💻 local · 🏋️ training
+- [GGUF and llama.cpp ecosystem](https://github.com/ggml-org/llama.cpp) - Quantized local-running descendants of major open-weight families; GGUF files are deployment formats, not new base models. · 🔓 open-source · 💻 local · 🪶 open-weights
+
+### 🌏 Regional, sovereign, and enterprise model families
+
+- [Baidu ERNIE](https://huggingface.co/baidu) - ERNIE and Wenxin model family spanning hosted chat, reasoning, multimodal understanding, and open ERNIE 4.5 variants on Hugging Face. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🖼️ image
+- [Tencent Hunyuan](https://hunyuan.tencent.com/) - Hunyuan family covering large language models, HunyuanVideo, image generation, 3D generation, OCR, translation, and cloud-hosted enterprise APIs. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🖼️ image · 🎬 video · 🧊 3d
+- [Huawei Pangu](https://support.huaweicloud.com/intl/en-us/productdesc-pangulm/) - Huawei Cloud model family for industry, government, scientific, weather, vision, and enterprise AI workloads, with openPangu variants in the broader ecosystem. · ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🧪 research
+- [01.ai Yi](https://www.01.ai/) - Yi model family for open-weight and hosted multilingual language models, long-context chat, and enterprise applications. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text
+- [Baichuan](https://www.baichuan-ai.com/) - Baichuan language model family for Chinese and multilingual chat, reasoning, enterprise deployment, and open-weight releases. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text
+- [StepFun Step](https://www.stepfun.com/) - Step model family for multimodal chat, reasoning, image/video understanding, and Chinese-market AI applications. · ☁️ hosted · 🔌 api · 📝 text · 🖼️ image · 🎬 video
+- [Aleph Alpha Pharia](https://aleph-alpha.com/) - European sovereign AI family focused on transparent, regulated, and enterprise deployments. · ☁️ hosted · 🔌 api · 📝 text · 🧪 lab
+- [Sarvam AI](https://www.sarvam.ai/) - India-focused model family for Indic language text, speech, translation, and government/enterprise workflows. · ☁️ hosted · 🔌 api · 🪶 open-weights · 📝 text · 🎧 audio
+- [Naver HyperCLOVA X](https://clova.ai/en/) - Korean-focused model family for enterprise language, search, writing, and productivity workflows. · ☁️ hosted · 🔌 api · 📝 text
+- [Upstage Solar](https://www.upstage.ai/) - Korean enterprise model family for small language models, document AI, OCR, and retrieval-heavy workloads. · ☁️ hosted · 🔌 api · 📝 text · 📄 parsing
+- [LG EXAONE](https://www.lgresearch.ai/) - LG AI Research model family for language, multimodal reasoning, materials, chemistry, and enterprise research workflows. · ☁️ hosted · 🪶 open-weights · 📝 text · 🧪 research
+- [TII Falcon](https://falconllm.tii.ae/) - Abu Dhabi Technology Innovation Institute open model family including Falcon language models and multimodal/research variants. · 🪶 open-weights · 💻 local · 📝 text
+- [Jais](https://www.core42.ai/jais) - Arabic-English model family from Core42/Inception focused on Arabic language, enterprise, and regional deployment. · ☁️ hosted · 🪶 open-weights · 📝 text
+- [AI2 OLMo](https://allenai.org/olmo) - Fully open language model family from the Allen Institute for AI with open weights, data, training code, and evaluation artifacts. · 🔓 open-source · 🪶 open-weights · 📝 text · 🧪 research
+- [Databricks DBRX](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) - Open MoE model family from Databricks for enterprise data, SQL, coding, and retrieval workflows. · 🪶 open-weights · 📝 text · 💻 coding · 🗃️ data
+- [Snowflake Arctic](https://www.snowflake.com/en/data-cloud/arctic/) - Enterprise open model family optimized for SQL, coding, and data-cloud workloads. · 🪶 open-weights · 📝 text · 💻 coding · 🗃️ data
+
+### 🎛️ Specialized model families
+
+- [Black Forest Labs FLUX](https://blackforestlabs.ai/) - Image generation family including FLUX.1 and newer hosted/open variants used across creative tools and inference platforms. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image
+- [Stability AI Stable Diffusion](https://stability.ai/) - Stable Diffusion, Stable Image, Stable Audio, Stable Video, and 3D/image editing model families with a large downstream ecosystem. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🖼️ image · 🎧 audio · 🎬 video
+- [Runway Gen](https://runwayml.com/) - Gen video model family for professional video generation, editing, inpainting, motion, and VFX-style workflows. · ☁️ hosted · 🔌 api · 🎬 video
+- [Midjourney](https://www.midjourney.com/) - Proprietary image and video model family focused on high-quality creative generation through Discord and web workflows. · ☁️ hosted · 🖼️ image · 🎬 video
+- [Kling AI](https://kling.ai/) - Kuaishou/Kwai video model family for cinematic text-to-video, image-to-video, and editing workflows. · ☁️ hosted · 🔌 api · 🎬 video
+- [PixVerse](https://pixverse.ai/) - Video model family for text-to-video, image-to-video, effects, editing, and developer-accessible generation. · ☁️ hosted · 🔌 api · 🎬 video
+- [ElevenLabs](https://elevenlabs.io/) - Voice, speech-to-text, text-to-speech, dubbing, sound effects, and music model family for real-time and production audio. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice · 🎼 music
+- [Cartesia Sonic](https://cartesia.ai/) - Low-latency voice model family for streaming TTS and conversational voice agents. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice
+- [Deepgram Nova](https://deepgram.com/) - Speech recognition, speech understanding, TTS, and voice-agent model family for realtime and batch audio applications. · ☁️ hosted · 🔌 api · 🎧 audio · 🗣️ voice
+- [AssemblyAI Universal](https://www.assemblyai.com/) - Speech-to-text and speech intelligence model family for transcription, speaker labels, summarization, and audio understanding. · ☁️ hosted · 🔌 api · 🎧 audio
+- [Suno](https://suno.com/) - Music generation model family for full-song creation, vocals, lyrics, and remix workflows. · ☁️ hosted · 🎼 music · 🎧 audio
+- [Udio](https://udio.com/) - Music model family for song generation, remixing, extension, and creator workflows. · ☁️ hosted · 🎼 music · 🎧 audio
+- [Voyage AI](https://www.voyageai.com/) - Embedding and reranking model family focused on retrieval, multilingual search, code retrieval, and legal/finance domains. · ☁️ hosted · 🔌 api · 🧬 embeddings · 📚 rag
+- [Jina AI embeddings and rerankers](https://jina.ai/) - Open and hosted model family for embeddings, rerankers, late-interaction retrieval, readers, and multimodal search. · ☁️ hosted · 🔌 api · 🪶 open-weights · 🧬 embeddings · 📚 rag
