@@ -295,6 +295,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [AgentOps](https://agentops.ai/) - Specialized observability and monitoring for AI agents and multi-step reasoning. · ☁️ hosted · 🤖 agents · 🧪 observability
 - [Braintrust](https://braintrustdata.com/) - Enterprise stack for building AI products with a focus on automated evaluations. · ☁️ hosted · 🧪 observability · 🧪 research
 - [Tracer](https://github.com/Abil-Shrestha/tracer) - CLI-first issue tracker and context layer specifically designed for AI agents. · 🔓 open-source · 🤖 agents · 🧪 observability · 💻 coding
+- [Future AGI](https://github.com/future-agi/future-agi) - Open-source platform to simulate, evaluate, trace, guardrail, route, and optimize LLM and AI agent apps in one feedback loop, so agents don't just get monitored, they self-improve. Self-hostable. Apache-2.0. · 🔓 open-source · ☁️ hosted · 🧪 observability
 
 ### 🛡️ Safety, guardrails, and governance
 
