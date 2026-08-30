@@ -288,6 +288,7 @@ This list is organized from user-facing products down to models, data, and infra
 
 ### 🧪 Evaluation and observability
 
+- [Agent QA](https://github.com/vostride/agent-qa) - Agent testing tool that runs task-based browser, terminal, and API scenarios and records replayable trajectories, screenshots, logs, and artifacts for failure analysis. Source-available under FSL-1.1-ALv2, with each release converting to Apache-2.0 after two years. · 🤖 agents · 🧪 observability · 🛠️ workflow
 - [LangSmith](https://www.langchain.com/langsmith) - Unified platform for debugging, testing, and monitoring LLM applications. · ☁️ hosted · 🧪 observability · 🧩 framework
 - [Langfuse](https://langfuse.com/) - Open-source observability and analytics platform for tracing and evaluation. · 🔓 open-source · ☁️ hosted · 🧪 observability
 - [Latitude](https://latitude.so/) - Open-source agent observability and prompt-evaluation platform for turning production traces, feedback, and failures into fixes. · 🔓 open-source · ☁️ hosted · 🧪 observability · 📐 prompts · 🤖 agents
