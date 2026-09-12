@@ -204,6 +204,7 @@ This list is organized from user-facing products down to models, data, and infra
 
 ### 🔀 Model routing and gateways
 
+- [AIWave](https://aiwave.live/) - Hosted OpenAI-compatible gateway for Chinese AI model routes, with one USD balance, dated pricing, and request-level usage records. · ☁️ hosted · 🔌 api · 🧠 routing
 - [OpenRouter](https://openrouter.ai/) - Unified API layer for routing requests across many model providers. · ☁️ hosted · 🔌 api · 🧠 routing
 - [Anannas](https://anannas.ai/) - Unified AI API gateway providing access to hundreds of models via a single endpoint. · ☁️ hosted · 🔌 api · 🧠 routing
 - [Kilo Gateway](https://kilo.ai/gateway) - OpenAI-compatible gateway with BYOK, routing, usage tracking, and provider abstraction. · ☁️ hosted · 🔌 api · 🧠 routing
