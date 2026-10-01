@@ -75,6 +75,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [DoAnything AI](https://doanything.ai/) - General-purpose agent platform for executing multi-step tasks and workflows via natural language. · ☁️ hosted · 💬 chat · 🤖 agents · 🛠️ workflow
 - [Character.ai](https://character.ai/) - Leading platform for roleplaying and interacting with AI-powered fictional and historical personas. · ☁️ hosted · 💬 chat · 🎭 roleplay
 - [Kindroid](https://kindroid.ai/) - AI companion platform focused on realistic long-term memory and multimodal interactions. · ☁️ hosted · 💬 chat · 🧠 memory · 👥 companion
+- [Teasa](https://teasa.ai/en?utm_source=github-awesome-ai&utm_medium=referral&utm_campaign=backlinks-2026-10) - Character chat and playable interactive Stories with quests, relationship milestones, and a creator workspace.
 
 ### 🔎 Search and research
 
