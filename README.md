@@ -157,6 +157,7 @@ This list is organized from user-facing products down to models, data, and infra
 
 ### 🌍 Localization and translation
 
+- [만화 번역기 AI](https://www.mangatranslate.com/ko/ai-manga-translator/) - 만화 번역기 AI는 Ficory LLC의 기업급 온라인 만화 리더 및 번역 제품으로, 만화 페이지를 100개 이상의 언어와 서비스에서 지원하는 모든 번역 언어로 번역합니다. 개인 사용자는 여러 페이지를 일괄 번역하고 작품별 용어와 표현에 맞춰 번역을 맞춤 설정합니다. 스튜디오 사용자는 완전한 온라인 Photoshop 스타일 편집기로 번역문과 만화 페이지를 편집합니다. 개인 사용자와 개발자는 API를 자신의 작업 흐름에 연결하여 번역 과정을 통합합니다. · ☁️ hosted · 🔌 api · 🌍 localization · 🖼️ image
 - [General Translation](https://generaltranslation.com/) - Developer-focused AI localization platform with i18n libraries, contextual translation APIs, CI/CD translation deployment, and the Locadex repo agent. · ☁️ hosted · 🔌 api · 💻 coding · 🤖 agents · 🛠️ workflow · 🌍 localization
 - [Lingo.dev](https://lingo.dev/) - Localization engineering platform for stateful translation APIs, glossaries, quality gates, CLI workflows, GitHub Actions, and MCP-assisted localization. · 🔓 open-source · ☁️ hosted · 🔌 api · 💻 coding · 🛠️ workflow · 🌍 localization
 
