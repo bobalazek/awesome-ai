@@ -89,6 +89,7 @@ This list is organized from user-facing products down to models, data, and infra
 - [Semantic Scholar](https://www.semanticscholar.org/) - Free AI-powered academic search engine and discovery platform for navigating papers, citations, and related scientific work. · ☁️ hosted · 🔎 search · 🧪 research
 - [Scite](https://scite.ai/) - Research platform that uses Smart Citations to show whether later papers support or contradict a claim. · ☁️ hosted · 🔎 search · 🧪 research
 - [Research Rabbit](https://www.researchrabbit.ai/) - Visual mapping tool for discovering related research papers and authors. · ☁️ hosted · 🔎 search · 🧪 research
+- [Pulse](https://pulsecorp.co) - AI-moderated market research platform where an AI moderator runs customer interviews by voice, video, text chat, phone call and WhatsApp. · ☁️ hosted · 💬 chat · 🗣️ voice · 🤖 agents · 🧪 research
 
 ### 🌐 Browser automation and web agents
 
